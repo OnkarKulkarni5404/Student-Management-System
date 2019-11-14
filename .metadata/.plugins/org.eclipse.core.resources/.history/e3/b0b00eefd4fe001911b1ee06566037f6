@@ -1,0 +1,24 @@
+package com.StudentClient.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.dao.StudentDaoImpl;
+
+@Service("service")
+public class StudentService {
+	
+	@Autowired
+	StudentDaoImpl student;
+	
+	public void updateStudent(Student s){
+		student.updateStudent(s);
+		System.out.println("Service");
+	}
+
+	public void saveStudent(Student s) {
+		student.saveStudent(s);
+		
+	}
+}

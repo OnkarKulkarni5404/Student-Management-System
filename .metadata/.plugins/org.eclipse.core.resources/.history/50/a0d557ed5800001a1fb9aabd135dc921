@@ -1,0 +1,50 @@
+package com.StudentClient;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import org.apache.http.HttpStatus;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.web.client.RestTemplate;
+
+import com.StudentClient.repo.StudentRepo;
+import com.StudentClient.service.StudentService;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class StudentClientApplicationTests {
+	
+	@Autowired
+	private StudentService service;
+	
+	@Autowired
+	private StudentRepo repo;
+	
+	@Test
+	public void contextLoads() {
+	}
+	
+	@Test
+	public void testgetStudentListSuccess() throws URISyntaxException 
+	{
+		RestTemplate rest_template=new RestTemplate();
+		final String url="http://10.44.50.37:8084/student_ru/student/";
+		URI uri=new URI(url);
+		ResponseEntity<String> entity=rest_template.getForEntity(uri, String.class);
+		String[] ar=entity.getStatusCode().toString().split("");
+		
+		
+		Assert.assertEquals(HttpStatus.SC_ACCEPTED, ar[0]);
+		
+		//System.out.println(repo.findAll().toString()+"-----"+entity.getBody());
+		
+		
+	}
+
+}

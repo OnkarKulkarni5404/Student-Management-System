@@ -1,0 +1,10 @@
+package com.StudentClient.dao;
+
+import com.StudentClient.beans.Student;
+
+public interface IStudentDao {
+
+	public void updateStudent(Student s);
+	
+	
+}

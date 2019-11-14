@@ -1,0 +1,48 @@
+package com.StudentClient.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.service.StudentService;
+
+@RestController
+@RequestMapping("/student")
+public class HController {
+
+	@Autowired
+	StudentService service;
+	
+	@GetMapping("/hello")
+	String testit(){
+		return "hello";
+	}
+	
+	@PutMapping("/update")
+	public void updateStudent(@RequestBody Student s){
+		service.updateStudent(s);
+		System.out.println("controller");
+	}
+	
+	
+	@GetMapping("/getStudent/{id}")
+	public Student getStudent(@PathVariable int id)
+	{
+		return service.findStudent(id);
+	}
+	
+	@GetMapping("/getAllStudent/")
+	public List<Student> getall()
+	{
+		return service.findAll();
+	}
+	
+}

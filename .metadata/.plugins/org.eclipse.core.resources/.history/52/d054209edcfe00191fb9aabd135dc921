@@ -1,0 +1,80 @@
+package com.StudentClient.dao;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.repo.StudentRepo;
+@Repository("dao")
+
+public class StudentDaoImpl implements IStudentDao {
+
+	
+	@Autowired
+	private StudentRepo repo;
+	
+	@Override
+	public void updateStudent(Student s) {
+		Optional<Student> nullable_student=repo.findById(s.getRollNo());
+		
+		if(!nullable_student.isPresent())
+		{
+			throw new UserNotFoundException(s.getRollNo()+"");
+		}
+		else{
+				repo.save(s);
+		}
+		
+	}
+
+	public void saveStudent(Student s) {
+		repo.save(s);
+	}
+	
+	public Student findStudent(int id)
+	{
+//		List<Student> student_list=repo.findAll();
+//		boolean flag=false;
+//		
+//		for(Student s:student_list)
+//		{
+//			System.out.println(s.getRollNo());
+//			if(s.getRollNo()==id)
+//			{
+//				flag=true;
+//				return s;
+//			}
+//		}
+//		if(!flag)
+//		{
+//			throw new UserNotFoundException("Not found any user");
+//		}
+//		return null;
+		
+		Optional<Student> nullable_student=repo.findById(s.getRollNo());
+		
+		if(!nullable_student.isPresent())
+		{
+			throw new UserNotFoundException(s.getRollNo()+"");
+		}
+		else{
+				return nullable_student.get();
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	public List<Student> findAll()
+	{
+		List<Student> student_list=repo.findAll();
+		return student_list;
+	}
+
+}

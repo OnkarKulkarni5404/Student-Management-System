@@ -1,0 +1,36 @@
+package com.StudentClient.dao;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.repo.StudentRepo;
+@Repository("dao")
+
+public class StudentDaoImpl implements IStudentDao {
+
+	
+	@Autowired
+	private StudentRepo repo;
+	
+	@Override
+	public String updateStudent(Student s) {
+		Student nullable_student=repo.findByStudentId(s.getStudentId());
+		Student checkme=repo.findByrollNo(s.getRollNo());
+		if(nullable_student!=null)
+		{
+			
+			
+		}
+		
+		return null;
+	}
+
+
+	
+	
+
+}

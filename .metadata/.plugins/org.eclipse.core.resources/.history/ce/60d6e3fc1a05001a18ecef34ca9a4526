@@ -1,0 +1,54 @@
+package com.StudentClient.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.repo.StudentRepo;
+
+@Repository("dao")
+public class StudentDaoImpl implements IStudentDao {
+
+	@Autowired
+	private MongoTemplate mtemp;
+
+	@Autowired
+	private StudentRepo repo;
+
+	@Override
+	public String updateStudent(Student s) {
+		Student nullable_student = repo.findByStudentId(s.getStudentId());
+
+		Query query = new Query();
+		Query phoneno=new Query();
+		query.addCriteria(new Criteria().andOperator(Criteria.where("rollNo")
+				.is(s.getRollNo()), Criteria.where("branch").is(s.getBranch())));
+
+		phoneno.addCriteria(new Criteria().where("phone").is(s.getPhone()));
+		
+		List<Student> students = mtemp.find(query, Student.class);
+		List<Student> pnos=mtemp.find(phoneno, Student.class);
+
+		
+		
+		
+		if (!students.isEmpty()) {
+			for (Student Stud : students) {
+				if (Stud.equals(s)) {
+					throw new NoUniqueUserFound("No UniqueNess");
+				}
+			}
+		} else {
+			mtemp.save(s);
+			return "Student Updated";
+		}
+		throw new NoUniqueUserFound("No UniqueNess");
+	}
+
+
+}

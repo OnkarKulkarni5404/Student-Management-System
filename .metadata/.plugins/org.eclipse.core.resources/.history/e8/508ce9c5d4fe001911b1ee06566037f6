@@ -1,0 +1,39 @@
+package com.StudentClient.dao;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.repo.StudentRepo;
+@Repository("dao")
+
+public class StudentDaoImpl implements IStudentDao {
+
+	@Autowired
+	private MongoOperations mo;
+	
+	@Autowired
+	private StudentRepo repo;
+	
+	@Override
+	public void updateStudent(Student s) {
+		Optional<Student> nullable_student=repo.findById(s.getRollNo());
+		
+		if(!nullable_student.isPresent())
+		{
+			throw new UserNotFoundException(s.getRollNo()+"");
+		}
+		else{
+				repo.save(s);
+		}
+		
+	}
+
+	public void saveStudent(Student s) {
+		mo.save(s);
+	}
+
+}

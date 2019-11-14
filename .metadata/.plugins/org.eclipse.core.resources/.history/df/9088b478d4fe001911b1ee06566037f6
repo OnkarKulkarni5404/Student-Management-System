@@ -1,0 +1,52 @@
+package com.StudentClient.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+@Repository("dao")
+
+public class StudentDaoImpl implements IStudentDao {
+
+	@Autowired
+	private MongoOperations mo;
+	
+	@Autowired
+	private MongoTemplate mt;
+	
+	@Override
+	public void updateStudent(Student s) {
+		Query query=new Query();
+		query.addCriteria(Criteria.where("rollNo").is(s.getRollNo()));
+		Update update=new Update();
+		update.set("name", s.getName());
+		update.set("branch", s.getBranch());
+		update.set("gender",s.getGender());
+		update.set("phone",s.getPhone());
+		update.set("email", s.getEmail());
+		update.set("city",s.getCity());
+		
+		List<Student> list=mt.find(query, Student.class);
+		
+		if(list.isEmpty())
+		{
+			throw new UserNotFoundException(s.getRollNo()+"");
+		}
+		else{
+		mt.findAndModify(query, update, Student.class);
+		}
+		
+	}
+
+	public void saveStudent(Student s) {
+		mo.save(s);
+	}
+
+}

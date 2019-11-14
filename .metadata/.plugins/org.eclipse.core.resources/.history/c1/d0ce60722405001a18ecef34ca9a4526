@@ -1,0 +1,68 @@
+package com.StudentClient.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.repo.StudentRepo;
+
+@Repository("dao")
+public class StudentDaoImpl implements IStudentDao {
+
+	@Autowired
+	private MongoTemplate mtemp;
+
+	@Autowired
+	private StudentRepo repo;
+
+	@Override
+	public String updateStudent(Student s) {
+		boolean flag=false;
+		
+		
+		Student nullable_student = repo.findByStudentId(s.getStudentId());
+		Query query = new Query();
+		Query PhoneQuery=new Query();
+		
+		PhoneQuery.query(new Criteria().where("phone").is(s.getPhone()));
+		List<Student> samephone=mtemp.find(PhoneQuery, Student.class);
+		
+		query.addCriteria(new Criteria().andOperator(Criteria.where("rollNo")
+				.is(s.getRollNo()), Criteria.where("branch").is(s.getBranch())));
+		List<Student> students = mtemp.find(query, Student.class);
+		
+		for(Student p:students)
+		{
+			
+			if(p.equals(s))
+			{
+				flag=true;
+				continue;
+			}
+			else
+			{
+				throw new NoUniqueUserFound("No unique ness in branch and rollno");
+			}
+		}
+		
+		if((samephone.size()-1)>=0)
+		{
+			flag=true;
+			hrow new NoUniqueUserFound("No unique ness in branch and rollno");
+		}
+		
+		if(flag==false)
+		{
+			mtemp.save(s);
+			return "Updated";
+		}
+		
+		return "checkme";
+}
+}

@@ -1,0 +1,35 @@
+package com.StudentClient.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Repository;
+
+import com.StudentClient.beans.Student;
+import com.StudentClient.repo.StudentRepo;
+@Repository("dao")
+
+public class StudentDaoImpl implements IStudentDao {
+
+	@Autowired
+	private MongoTemplate mtemp;
+	
+	@Autowired
+	private StudentRepo repo;
+	
+	@Override
+	public String updateStudent(Student s) {
+		Student nullable_student=repo.findByStudentId(s.getStudentId());
+		Student same_user=mtemp.findOne(Query.query(Criteria.where("rollNo").is(s.getRollNo())),Student.class);
+		
+		
+		
+		return null;
+	}
+
+
+	
+	
+
+}
