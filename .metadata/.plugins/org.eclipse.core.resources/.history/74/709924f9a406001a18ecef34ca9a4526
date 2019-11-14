@@ -1,0 +1,5 @@
+package com.StudentClient.dao;
+
+public interface IAssessment {
+
+}

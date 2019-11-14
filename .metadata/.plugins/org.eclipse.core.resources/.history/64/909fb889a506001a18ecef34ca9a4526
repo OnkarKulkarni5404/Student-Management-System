@@ -51,7 +51,7 @@ public class StudentClientApplicationTests {
 		//String studentId, Integer rollNo, String name,
 		//Branch branch, Gender gender, String phone, String email,
 		//String city
-		Student stud=new Student("5dc93339a3f0f207f4f40782",33,"pppp",Branch.CS,Gender.Female,"989898989","opk@gmail.com","jalgaon");
+		Student stud=new Student("5dc93339a3f0f207f4f40782",33,"pppp","ME","Female","989898989","opk@gmail.com","jalgaon");
 		HttpHeaders headers = new HttpHeaders();
 	    HttpEntity<Student> request = new HttpEntity<>(stud, headers);
 	    rest_template.put(uri, request);

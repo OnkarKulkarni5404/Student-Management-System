@@ -1,0 +1,16 @@
+package com.StudentClient.beans;
+
+public enum Grade {
+	A(1),B(2),C(3);
+	private Integer value;
+	private Grade(Integer val)
+	{
+		this.value=val;
+	}
+	private Integer getValue()
+	{
+		return value;
+	}
+	
+	
+}
