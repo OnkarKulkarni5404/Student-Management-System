@@ -1,0 +1,13 @@
+package com.Zuul_Service.Hysterix;
+
+import org.springframework.context.annotation.Bean;
+
+public class HystrixFallbackConfiguration {
+
+	@Bean
+    public ZuulFallbackProvider zuulFallbackProvider() {
+		return new ZuulFallbackProvider(){
+			
+		}
+	}
+}

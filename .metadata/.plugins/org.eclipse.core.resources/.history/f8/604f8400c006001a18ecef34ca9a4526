@@ -1,0 +1,28 @@
+package com.Zuul_Service.Hysterix;
+
+import org.springframework.cloud.netflix.zuul.filters.route.ZuulFallbackProvider;
+import org.springframework.context.annotation.Bean;
+import org.springframework.http.client.ClientHttpResponse;
+
+public class HystrixFallbackConfiguration {
+	@Bean
+    public ZuulFallbackProvider zuulFallbackProvider() {
+        return new ZuulFallbackProvider() {
+
+			@Override
+			public ClientHttpResponse fallbackResponse() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+
+			@Override
+			public String getRoute() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+        	
+        	
+        	
+        };
+}
+}

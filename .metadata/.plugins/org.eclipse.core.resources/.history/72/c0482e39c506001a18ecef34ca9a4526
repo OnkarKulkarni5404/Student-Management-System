@@ -1,0 +1,5 @@
+package com.Zuul_Service.Hysterix;
+
+public class WebConfiguration {
+
+}
