@@ -1,0 +1,25 @@
+#server:
+ # port: ${PORT:8761} # Indicate the default PORT where this service will be started
+ 
+#eureka:
+ # client:
+ #   registerWithEureka: false   #telling the server not to register himself in the service registry
+ #   fetchRegistry: false
+ # server:
+ #   waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
+ 
+ 
+ spring:
+  profiles: primary
+  application:
+    name: eureka-server-clustered   
+server:
+  port: 8011  
+eureka:
+  instance:
+    hostname: eureka-primary       
+  client:
+    registerWithEureka: true
+    fetchRegistry: true        
+    serviceUrl:
+      defaultZone: http://admin:admin@eureka-secondary:8012/eureka,http://admin:admin@eureka-tertiary:8013/eureka
