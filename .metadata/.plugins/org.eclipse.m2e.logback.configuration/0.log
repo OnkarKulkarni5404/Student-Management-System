@@ -5433,3 +5433,409 @@
 2019-11-15 11:13:41,484 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-11-15 11:13:41,490 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-15 11:13:41,490 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-15 11:24:36,972 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 11:24:36,972 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 11:24:36,973 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-15 11:24:36,977 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 11:24:36,977 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-15 11:25:22,393 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 11:25:22,394 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 11:25:22,394 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-15 11:25:22,408 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 11:25:22,409 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-15 11:38:45,864 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 11:38:45,864 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 11:38:45,864 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-15 11:38:45,881 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 11:38:45,881 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-15 12:11:21,424 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-11-15 12:11:41,423 [Worker-743] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient
+2019-11-15 12:11:41,423 [Worker-743] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B dependency:analyze
+2019-11-15 12:11:44,961 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 12:11:44,979 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 12:11:44,999 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 12:11:45,001 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 12:11:45,002 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 12:16:43,369 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 12:16:43,375 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 12:16:43,460 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 12:16:43,462 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 12:16:43,462 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:37:42,218 [Worker-890] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:37:52,880 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:37:52,882 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:37:52,883 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:37:52,887 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:37:52,887 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:38:09,431 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:38:09,433 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 13:38:09,458 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:38:09,460 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:38:09,460 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:39:22,346 [Worker-894] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:39:48,422 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:39:48,422 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:39:48,422 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:39:48,424 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:39:48,424 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:39:59,856 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:39:59,858 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 13:39:59,861 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:39:59,863 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:39:59,863 [Worker-890] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:43:10,176 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:43:10,177 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:43:10,177 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-15 13:43:10,183 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:43:10,184 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-15 13:55:22,193 [Worker-888] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:55:27,573 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:55:27,574 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:55:27,574 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:55:27,575 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:55:27,575 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:55:33,503 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:55:33,505 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 13:55:33,510 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:55:33,511 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:55:33,511 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:56:30,833 [Worker-893] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:56:31,998 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:56:31,998 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:56:31,998 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:56:32,013 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:56:32,013 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:56:36,838 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:56:36,840 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 13:56:36,844 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:56:36,845 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:56:36,845 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:57:17,998 [Worker-888] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:57:19,419 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:19,419 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:19,420 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:19,421 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:19,421 [Worker-888] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:57:21,570 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:21,571 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 13:57:22,085 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:22,087 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:22,087 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:57:24,351 [Worker-895] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:57:25,863 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:25,863 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:25,863 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:25,864 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:25,864 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:57:30,300 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:30,302 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 13:57:30,306 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:30,307 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:30,307 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:57:46,137 [Worker-895] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:57:47,302 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:47,302 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:47,302 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:47,303 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:47,303 [Worker-895] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:57:48,909 [Worker-894] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:57:49,913 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:49,914 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:49,914 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:57:49,915 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:57:49,915 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 13:58:47,581 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 13:58:48,621 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:58:48,622 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:58:48,622 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 13:58:48,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 13:58:48,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:04:51,324 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-11-15 14:05:01,379 [Worker-893] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient
+2019-11-15 14:05:01,379 [Worker-893] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B mvn dependency:analyze
+2019-11-15 14:06:18,007 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-11-15 14:06:25,243 [Worker-893] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient
+2019-11-15 14:06:25,243 [Worker-893] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B dependency:analyze
+2019-11-15 14:12:08,020 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:12:09,132 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:12:09,132 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:12:09,133 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:12:09,134 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:12:09,134 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:12:12,938 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:12:12,940 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:12:12,949 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:12:12,950 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:12:12,950 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:13:11,127 [Worker-889] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:13:12,203 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:13:12,204 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:13:12,204 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:13:12,205 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:13:12,205 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:13:51,085 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:13:53,596 [Worker-891] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client//spring-cloud-starter-netflix-eureka-client-.pom
+2019-11-15 14:13:53,638 [Worker-891] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar: is missing, no dependency information available
+2019-11-15 14:19:48,398 [Worker-888] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:19:50,707 [Worker-888] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar: is missing, no dependency information available
+2019-11-15 14:19:51,583 [Worker-888] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/discovery/discovery//discovery-.pom
+2019-11-15 14:19:51,599 [Worker-888] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for discovery:discovery:jar: is missing, no dependency information available
+2019-11-15 14:20:15,591 [Worker-888] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:20:16,603 [Worker-893] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar: is missing, no dependency information available
+2019-11-15 14:20:28,101 [Worker-892] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:20:29,789 [Worker-864] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar: is missing, no dependency information available
+2019-11-15 14:20:33,526 [Worker-895] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:20:34,551 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar: is missing, no dependency information available
+2019-11-15 14:21:01,687 [Worker-889] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:21:02,899 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.9.12/eureka-client-1.9.12.pom
+2019-11-15 14:21:03,058 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.9.12/eureka-client-1.9.12.pom
+2019-11-15 14:21:03,217 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2019-11-15 14:21:03,366 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2019-11-15 14:21:03,545 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.5.3/servo-core-0.5.3.pom
+2019-11-15 14:21:03,692 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.5.3/servo-core-0.5.3.pom
+2019-11-15 14:21:03,833 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.pom
+2019-11-15 14:21:03,965 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.pom
+2019-11-15 14:21:04,100 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.3.3/archaius-core-0.3.3.pom
+2019-11-15 14:21:04,348 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.3.3/archaius-core-0.3.3.pom
+2019-11-15 14:21:04,546 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.pom
+2019-11-15 14:21:04,692 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.pom
+2019-11-15 14:21:04,826 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.10/xstream-parent-1.4.10.pom
+2019-11-15 14:21:05,174 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.10/xstream-parent-1.4.10.pom
+2019-11-15 14:21:05,439 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.pom
+2019-11-15 14:21:05,589 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.pom
+2019-11-15 14:21:05,737 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/vlsi/compactmap/parent/1.2.1/parent-1.2.1.pom
+2019-11-15 14:21:05,880 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/vlsi/compactmap/parent/1.2.1/parent-1.2.1.pom
+2019-11-15 14:21:06,037 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.pom
+2019-11-15 14:21:06,185 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.pom
+2019-11-15 14:21:06,376 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/andrewoma/dexx/dexx-parent/0.2/dexx-parent-0.2.pom
+2019-11-15 14:21:06,512 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/andrewoma/dexx/dexx-parent/0.2/dexx-parent-0.2.pom
+2019-11-15 14:21:06,950 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.9.12/eureka-client-1.9.12.jar
+2019-11-15 14:21:07,710 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.9.12/eureka-client-1.9.12.jar
+2019-11-15 14:21:07,837 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2019-11-15 14:21:07,975 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2019-11-15 14:21:08,100 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar
+2019-11-15 14:21:08,368 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar
+2019-11-15 14:21:08,496 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2019-11-15 14:21:08,647 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2019-11-15 14:21:08,773 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.jar
+2019-11-15 14:21:08,924 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.jar
+2019-11-15 14:21:09,049 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.jar
+2019-11-15 14:21:09,375 [Worker-889] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.jar
+2019-11-15 14:21:15,172 [Worker-864] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar: is missing, no dependency information available
+2019-11-15 14:21:50,730 [Worker-864] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:21:51,670 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-starter-netflix-eureka-client-1.4.0.RELEASE.pom
+2019-11-15 14:21:51,805 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-starter-netflix-eureka-client-1.4.0.RELEASE.pom
+2019-11-15 14:21:51,928 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix/1.4.0.RELEASE/spring-cloud-starter-netflix-1.4.0.RELEASE.pom
+2019-11-15 14:21:52,066 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix/1.4.0.RELEASE/spring-cloud-starter-netflix-1.4.0.RELEASE.pom
+2019-11-15 14:21:52,208 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/1.4.0.RELEASE/spring-cloud-netflix-1.4.0.RELEASE.pom
+2019-11-15 14:21:52,398 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/1.4.0.RELEASE/spring-cloud-netflix-1.4.0.RELEASE.pom
+2019-11-15 14:21:52,535 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/1.3.6.RELEASE/spring-cloud-build-1.3.6.RELEASE.pom
+2019-11-15 14:21:52,795 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/1.3.6.RELEASE/spring-cloud-build-1.3.6.RELEASE.pom
+2019-11-15 14:21:52,934 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/1.4.0.RELEASE/spring-cloud-netflix-dependencies-1.4.0.RELEASE.pom
+2019-11-15 14:21:53,076 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/1.4.0.RELEASE/spring-cloud-netflix-dependencies-1.4.0.RELEASE.pom
+2019-11-15 14:21:53,215 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.6.RELEASE/spring-cloud-dependencies-parent-1.3.6.RELEASE.pom
+2019-11-15 14:21:53,352 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.6.RELEASE/spring-cloud-dependencies-parent-1.3.6.RELEASE.pom
+2019-11-15 14:21:53,478 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/1.3.0.RELEASE/spring-cloud-commons-dependencies-1.3.0.RELEASE.pom
+2019-11-15 14:21:53,619 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/1.3.0.RELEASE/spring-cloud-commons-dependencies-1.3.0.RELEASE.pom
+2019-11-15 14:21:53,805 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/1.4.0.RELEASE/spring-cloud-config-dependencies-1.4.0.RELEASE.pom
+2019-11-15 14:21:53,936 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/1.4.0.RELEASE/spring-cloud-config-dependencies-1.4.0.RELEASE.pom
+2019-11-15 14:21:54,083 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/Ditmars.RELEASE/spring-cloud-stream-dependencies-Ditmars.RELEASE.pom
+2019-11-15 14:21:54,213 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/Ditmars.RELEASE/spring-cloud-stream-dependencies-Ditmars.RELEASE.pom
+2019-11-15 14:21:54,338 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.5.RELEASE/spring-cloud-dependencies-parent-1.3.5.RELEASE.pom
+2019-11-15 14:21:54,470 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.5.RELEASE/spring-cloud-dependencies-parent-1.3.5.RELEASE.pom
+2019-11-15 14:21:54,922 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/1.3.6.RELEASE/spring-cloud-build-dependencies-1.3.6.RELEASE.pom
+2019-11-15 14:21:55,075 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/1.3.6.RELEASE/spring-cloud-build-dependencies-1.3.6.RELEASE.pom
+2019-11-15 14:21:55,204 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.8.RELEASE/spring-boot-dependencies-1.5.8.RELEASE.pom
+2019-11-15 14:21:55,464 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.8.RELEASE/spring-boot-dependencies-1.5.8.RELEASE.pom
+2019-11-15 14:21:55,758 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.12.RELEASE/spring-framework-bom-4.3.12.RELEASE.pom
+2019-11-15 14:21:55,923 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.12.RELEASE/spring-framework-bom-4.3.12.RELEASE.pom
+2019-11-15 14:21:56,051 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Ingalls-SR8/spring-data-releasetrain-Ingalls-SR8.pom
+2019-11-15 14:21:56,173 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Ingalls-SR8/spring-data-releasetrain-Ingalls-SR8.pom
+2019-11-15 14:21:56,296 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.9.8.RELEASE/spring-data-build-1.9.8.RELEASE.pom
+2019-11-15 14:21:56,418 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.9.8.RELEASE/spring-data-build-1.9.8.RELEASE.pom
+2019-11-15 14:21:56,832 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/1.3.0.RELEASE/spring-cloud-starter-1.3.0.RELEASE.pom
+2019-11-15 14:21:56,956 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/1.3.0.RELEASE/spring-cloud-starter-1.3.0.RELEASE.pom
+2019-11-15 14:21:57,088 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/1.3.0.RELEASE/spring-cloud-commons-parent-1.3.0.RELEASE.pom
+2019-11-15 14:21:57,228 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/1.3.0.RELEASE/spring-cloud-commons-parent-1.3.0.RELEASE.pom
+2019-11-15 14:21:57,375 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/1.3.0.RELEASE/spring-cloud-context-1.3.0.RELEASE.pom
+2019-11-15 14:21:57,510 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/1.3.0.RELEASE/spring-cloud-context-1.3.0.RELEASE.pom
+2019-11-15 14:21:57,661 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE.pom
+2019-11-15 14:21:57,793 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE.pom
+2019-11-15 14:21:58,067 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.pom
+2019-11-15 14:21:58,290 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.pom
+2019-11-15 14:21:58,437 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-netflix-eureka-client-1.4.0.RELEASE.pom
+2019-11-15 14:21:58,570 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-netflix-eureka-client-1.4.0.RELEASE.pom
+2019-11-15 14:21:58,695 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.7.0/eureka-client-1.7.0.pom
+2019-11-15 14:21:58,850 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.7.0/eureka-client-1.7.0.pom
+2019-11-15 14:21:59,196 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.5/archaius-core-0.7.5.pom
+2019-11-15 14:21:59,324 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.5/archaius-core-0.7.5.pom
+2019-11-15 14:21:59,591 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0.pom
+2019-11-15 14:21:59,728 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0.pom
+2019-11-15 14:21:59,894 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/1.4.0.RELEASE/spring-cloud-starter-netflix-archaius-1.4.0.RELEASE.pom
+2019-11-15 14:22:00,057 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/1.4.0.RELEASE/spring-cloud-starter-netflix-archaius-1.4.0.RELEASE.pom
+2019-11-15 14:22:00,269 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/1.4.0.RELEASE/spring-cloud-starter-netflix-ribbon-1.4.0.RELEASE.pom
+2019-11-15 14:22:00,394 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/1.4.0.RELEASE/spring-cloud-starter-netflix-ribbon-1.4.0.RELEASE.pom
+2019-11-15 14:22:00,521 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.2.4/ribbon-2.2.4.pom
+2019-11-15 14:22:00,664 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.2.4/ribbon-2.2.4.pom
+2019-11-15 14:22:00,796 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.2.4/ribbon-core-2.2.4.pom
+2019-11-15 14:22:00,984 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.2.4/ribbon-core-2.2.4.pom
+2019-11-15 14:22:01,135 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.2.4/ribbon-transport-2.2.4.pom
+2019-11-15 14:22:01,264 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.2.4/ribbon-transport-2.2.4.pom
+2019-11-15 14:22:01,401 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.2.4/ribbon-loadbalancer-2.2.4.pom
+2019-11-15 14:22:01,530 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.2.4/ribbon-loadbalancer-2.2.4.pom
+2019-11-15 14:22:01,695 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.39.Final/netty-codec-http-4.1.39.Final.pom
+2019-11-15 14:22:01,879 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.39.Final/netty-codec-http-4.1.39.Final.pom
+2019-11-15 14:22:02,014 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.39.Final/netty-parent-4.1.39.Final.pom
+2019-11-15 14:22:02,155 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.39.Final/netty-parent-4.1.39.Final.pom
+2019-11-15 14:22:02,358 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.39.Final/netty-common-4.1.39.Final.pom
+2019-11-15 14:22:02,497 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.39.Final/netty-common-4.1.39.Final.pom
+2019-11-15 14:22:02,628 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.39.Final/netty-buffer-4.1.39.Final.pom
+2019-11-15 14:22:02,796 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.39.Final/netty-buffer-4.1.39.Final.pom
+2019-11-15 14:22:02,944 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.39.Final/netty-transport-4.1.39.Final.pom
+2019-11-15 14:22:03,096 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.39.Final/netty-transport-4.1.39.Final.pom
+2019-11-15 14:22:03,237 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.39.Final/netty-resolver-4.1.39.Final.pom
+2019-11-15 14:22:03,361 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.39.Final/netty-resolver-4.1.39.Final.pom
+2019-11-15 14:22:03,488 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.39.Final/netty-codec-4.1.39.Final.pom
+2019-11-15 14:22:03,667 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.39.Final/netty-codec-4.1.39.Final.pom
+2019-11-15 14:22:03,811 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.39.Final/netty-handler-4.1.39.Final.pom
+2019-11-15 14:22:04,014 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.39.Final/netty-handler-4.1.39.Final.pom
+2019-11-15 14:22:04,154 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.39.Final/netty-transport-native-epoll-4.1.39.Final.pom
+2019-11-15 14:22:04,276 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.39.Final/netty-transport-native-epoll-4.1.39.Final.pom
+2019-11-15 14:22:04,422 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.39.Final/netty-transport-native-unix-common-4.1.39.Final.pom
+2019-11-15 14:22:04,560 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.39.Final/netty-transport-native-unix-common-4.1.39.Final.pom
+2019-11-15 14:22:04,711 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom
+2019-11-15 14:22:04,872 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom
+2019-11-15 14:22:05,016 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom
+2019-11-15 14:22:05,142 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom
+2019-11-15 14:22:05,269 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom
+2019-11-15 14:22:05,400 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom
+2019-11-15 14:22:05,559 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.2.4/ribbon-httpclient-2.2.4.pom
+2019-11-15 14:22:05,687 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.2.4/ribbon-httpclient-2.2.4.pom
+2019-11-15 14:22:05,824 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-eureka/2.2.4/ribbon-eureka-2.2.4.pom
+2019-11-15 14:22:05,957 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-eureka/2.2.4/ribbon-eureka-2.2.4.pom
+2019-11-15 14:22:06,104 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.4.6/eureka-client-1.4.6.pom
+2019-11-15 14:22:06,239 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.4.6/eureka-client-1.4.6.pom
+2019-11-15 14:22:06,391 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.pom
+2019-11-15 14:22:06,531 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.pom
+2019-11-15 14:22:06,711 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.2/xstream-parent-1.4.2.pom
+2019-11-15 14:22:06,846 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.2/xstream-parent-1.4.2.pom
+2019-11-15 14:22:06,985 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.3/archaius-core-0.7.3.pom
+2019-11-15 14:22:07,133 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.3/archaius-core-0.7.3.pom
+2019-11-15 14:22:07,261 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
+2019-11-15 14:22:07,387 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
+2019-11-15 14:22:07,515 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
+2019-11-15 14:22:07,642 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
+2019-11-15 14:22:07,766 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
+2019-11-15 14:22:07,888 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
+2019-11-15 14:22:08,053 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-apache-client4/1.19/jersey-apache-client4-1.19.pom
+2019-11-15 14:22:08,203 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-apache-client4/1.19/jersey-apache-client4-1.19.pom
+2019-11-15 14:22:08,327 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
+2019-11-15 14:22:08,456 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
+2019-11-15 14:22:08,984 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-starter-netflix-eureka-client-1.4.0.RELEASE.jar
+2019-11-15 14:22:09,110 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-starter-netflix-eureka-client-1.4.0.RELEASE.jar
+2019-11-15 14:22:09,260 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/1.3.0.RELEASE/spring-cloud-starter-1.3.0.RELEASE.jar
+2019-11-15 14:22:09,383 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/1.3.0.RELEASE/spring-cloud-starter-1.3.0.RELEASE.jar
+2019-11-15 14:22:09,500 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/1.3.0.RELEASE/spring-cloud-context-1.3.0.RELEASE.jar
+2019-11-15 14:22:09,736 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/1.3.0.RELEASE/spring-cloud-context-1.3.0.RELEASE.jar
+2019-11-15 14:22:09,853 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE.jar
+2019-11-15 14:22:10,118 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE.jar
+2019-11-15 14:22:10,234 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.jar
+2019-11-15 14:22:10,716 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.jar
+2019-11-15 14:22:10,835 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-netflix-eureka-client-1.4.0.RELEASE.jar
+2019-11-15 14:22:10,959 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-netflix-eureka-client-1.4.0.RELEASE.jar
+2019-11-15 14:22:11,079 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.7.0/eureka-client-1.7.0.jar
+2019-11-15 14:22:11,223 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/1.7.0/eureka-client-1.7.0.jar
+2019-11-15 14:22:11,339 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.5/archaius-core-0.7.5.jar
+2019-11-15 14:22:11,469 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.5/archaius-core-0.7.5.jar
+2019-11-15 14:22:11,586 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0.jar
+2019-11-15 14:22:11,733 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0.jar
+2019-11-15 14:22:11,849 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/1.4.0.RELEASE/spring-cloud-starter-netflix-archaius-1.4.0.RELEASE.jar
+2019-11-15 14:22:12,320 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/1.4.0.RELEASE/spring-cloud-starter-netflix-archaius-1.4.0.RELEASE.jar
+2019-11-15 14:22:12,438 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/1.4.0.RELEASE/spring-cloud-starter-netflix-ribbon-1.4.0.RELEASE.jar
+2019-11-15 14:22:12,575 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/1.4.0.RELEASE/spring-cloud-starter-netflix-ribbon-1.4.0.RELEASE.jar
+2019-11-15 14:22:12,694 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.2.4/ribbon-2.2.4.jar
+2019-11-15 14:22:12,870 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.2.4/ribbon-2.2.4.jar
+2019-11-15 14:22:12,986 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.2.4/ribbon-transport-2.2.4.jar
+2019-11-15 14:22:13,109 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.2.4/ribbon-transport-2.2.4.jar
+2019-11-15 14:22:13,229 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.jar
+2019-11-15 14:22:13,374 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.jar
+2019-11-15 14:22:13,497 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.39.Final/netty-codec-http-4.1.39.Final.jar
+2019-11-15 14:22:13,655 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.39.Final/netty-codec-http-4.1.39.Final.jar
+2019-11-15 14:22:13,775 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.39.Final/netty-common-4.1.39.Final.jar
+2019-11-15 14:22:13,930 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.39.Final/netty-common-4.1.39.Final.jar
+2019-11-15 14:22:14,048 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.39.Final/netty-buffer-4.1.39.Final.jar
+2019-11-15 14:22:14,194 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.39.Final/netty-buffer-4.1.39.Final.jar
+2019-11-15 14:22:14,321 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.39.Final/netty-transport-4.1.39.Final.jar
+2019-11-15 14:22:14,479 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.39.Final/netty-transport-4.1.39.Final.jar
+2019-11-15 14:22:14,594 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.39.Final/netty-resolver-4.1.39.Final.jar
+2019-11-15 14:22:14,733 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.39.Final/netty-resolver-4.1.39.Final.jar
+2019-11-15 14:22:14,893 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.39.Final/netty-codec-4.1.39.Final.jar
+2019-11-15 14:22:15,049 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.39.Final/netty-codec-4.1.39.Final.jar
+2019-11-15 14:22:15,237 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.39.Final/netty-handler-4.1.39.Final.jar
+2019-11-15 14:22:15,451 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.39.Final/netty-handler-4.1.39.Final.jar
+2019-11-15 14:22:15,570 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.39.Final/netty-transport-native-epoll-4.1.39.Final.jar
+2019-11-15 14:22:15,706 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.39.Final/netty-transport-native-epoll-4.1.39.Final.jar
+2019-11-15 14:22:15,821 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.39.Final/netty-transport-native-unix-common-4.1.39.Final.jar
+2019-11-15 14:22:15,951 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.39.Final/netty-transport-native-unix-common-4.1.39.Final.jar
+2019-11-15 14:22:16,078 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.2.4/ribbon-core-2.2.4.jar
+2019-11-15 14:22:16,204 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.2.4/ribbon-core-2.2.4.jar
+2019-11-15 14:22:16,320 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.2.4/ribbon-httpclient-2.2.4.jar
+2019-11-15 14:22:16,462 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.2.4/ribbon-httpclient-2.2.4.jar
+2019-11-15 14:22:16,637 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.2.4/ribbon-loadbalancer-2.2.4.jar
+2019-11-15 14:22:16,808 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.2.4/ribbon-loadbalancer-2.2.4.jar
+2019-11-15 14:22:16,956 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-eureka/2.2.4/ribbon-eureka-2.2.4.jar
+2019-11-15 14:22:17,160 [Worker-864] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-eureka/2.2.4/ribbon-eureka-2.2.4.jar
+2019-11-15 14:22:24,342 [Worker-864] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Zuul_Service:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\pom.xml.
+2019-11-15 14:22:28,706 [Worker-864] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Eureka:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\pom.xml.
+2019-11-15 14:22:32,656 [Worker-864] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:32,657 [Worker-864] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:32,657 [Worker-864] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:32,659 [Worker-864] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:32,659 [Worker-864] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:22:36,563 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:36,932 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:36,933 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:36,937 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:36,951 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\src\test\resources
+2019-11-15 14:22:38,145 [Worker-891] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:22:39,313 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:39,315 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:22:39,319 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:39,321 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:39,321 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:22:43,663 [Worker-892] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:43,663 [Worker-892] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:43,663 [Worker-892] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:22:43,664 [Worker-892] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:22:43,664 [Worker-892] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-15 14:23:25,045 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:23:25,046 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:23:25,050 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:23:25,052 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:23:25,052 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:23:28,560 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:23:28,562 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:23:28,566 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:23:28,567 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:23:28,567 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:23:34,519 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:23:34,521 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:23:34,525 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:23:34,526 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:23:34,526 [Worker-889] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:24:27,628 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:24:27,630 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:24:27,635 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:24:27,637 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:24:27,637 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:25:01,111 [Worker-894] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-15 14:25:02,459 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:25:02,460 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:25:02,460 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:25:02,461 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:25:02,461 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-15 14:25:05,850 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:25:05,852 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-15 14:25:05,857 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 14:25:05,858 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-15 14:25:05,858 [Worker-893] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources

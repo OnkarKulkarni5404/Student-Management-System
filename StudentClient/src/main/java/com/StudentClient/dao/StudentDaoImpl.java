@@ -51,7 +51,7 @@ public class StudentDaoImpl implements IStudentDao {
 			} else {
 				flag = true;
 				throw new NoUniqueUserFound(
-						"No unique ness in branch and rollno");
+						"No uniqueness in branch and rollno");
 			}
 		}
 
