@@ -17,6 +17,7 @@ public class ZuulServiceApplication {
 		SpringApplication.run(ZuulServiceApplication.class, args);
 	}
 	
+	
 	@Bean
 	  public PreFilter simpleFilter() {
 	    return new PreFilter();
