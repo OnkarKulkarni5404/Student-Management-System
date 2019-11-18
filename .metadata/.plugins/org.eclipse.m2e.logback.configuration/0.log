@@ -6821,3 +6821,743 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2019-11-18 12:08:42,576 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-11-18 12:08:42,577 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-18 12:08:42,577 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-18 15:26:07,337 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.1.RELEASE/spring-boot-starter-parent-2.1.1.RELEASE.pom
+2019-11-18 15:26:07,515 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.1.RELEASE/spring-boot-starter-parent-2.1.1.RELEASE.pom
+2019-11-18 15:26:08,124 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.1.RELEASE/spring-boot-starter-parent-2.1.1.RELEASE.jar
+2019-11-18 15:26:08,272 [ModalContext] ERROR o.e.m.c.u.i.w.MavenProjectWizardArchetypePage - Can't resolve Archetype org.springframework.boot:spring-boot-starter-parent:2.1.1.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-parent:jar:2.1.1.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage$17.run(MavenProjectWizardArchetypePage.java:841) ~[org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) [org.eclipse.jface_3.10.0.v20140604-0740.jar:na]
+2019-11-18 15:30:18,336 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.2.1.RELEASE/spring-boot-starter-parent-2.2.1.RELEASE.pom
+2019-11-18 15:30:18,481 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.2.1.RELEASE/spring-boot-starter-parent-2.2.1.RELEASE.pom
+2019-11-18 15:30:18,650 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.2.1.RELEASE/spring-boot-dependencies-2.2.1.RELEASE.pom
+2019-11-18 15:30:19,073 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.2.1.RELEASE/spring-boot-dependencies-2.2.1.RELEASE.pom
+2019-11-18 15:30:19,456 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.3.1/micrometer-bom-1.3.1.pom
+2019-11-18 15:30:19,595 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.3.1/micrometer-bom-1.3.1.pom
+2019-11-18 15:30:19,761 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.43.Final/netty-bom-4.1.43.Final.pom
+2019-11-18 15:30:19,892 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.43.Final/netty-bom-4.1.43.Final.pom
+2019-11-18 15:30:20,104 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR1/reactor-bom-Dysprosium-SR1.pom
+2019-11-18 15:30:20,250 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR1/reactor-bom-Dysprosium-SR1.pom
+2019-11-18 15:30:20,634 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.22.v20191022/jetty-bom-9.4.22.v20191022.pom
+2019-11-18 15:30:20,777 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.22.v20191022/jetty-bom-9.4.22.v20191022.pom
+2019-11-18 15:30:21,210 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.1.RELEASE/spring-framework-bom-5.2.1.RELEASE.pom
+2019-11-18 15:30:21,338 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.1.RELEASE/spring-framework-bom-5.2.1.RELEASE.pom
+2019-11-18 15:30:21,503 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Moore-SR1/spring-data-releasetrain-Moore-SR1.pom
+2019-11-18 15:30:21,635 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Moore-SR1/spring-data-releasetrain-Moore-SR1.pom
+2019-11-18 15:30:21,801 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.2.1.RELEASE/spring-data-build-2.2.1.RELEASE.pom
+2019-11-18 15:30:22,050 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.2.1.RELEASE/spring-data-build-2.2.1.RELEASE.pom
+2019-11-18 15:30:22,227 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.2.1.RELEASE/spring-integration-bom-5.2.1.RELEASE.pom
+2019-11-18 15:30:22,362 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.2.1.RELEASE/spring-integration-bom-5.2.1.RELEASE.pom
+2019-11-18 15:30:22,517 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.2.1.RELEASE/spring-security-bom-5.2.1.RELEASE.pom
+2019-11-18 15:30:22,663 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.2.1.RELEASE/spring-security-bom-5.2.1.RELEASE.pom
+2019-11-18 15:30:33,824 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.2.1.RELEASE/spring-boot-maven-plugin-2.2.1.RELEASE.pom
+2019-11-18 15:30:34,083 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.2.1.RELEASE/spring-boot-maven-plugin-2.2.1.RELEASE.pom
+2019-11-18 15:30:34,260 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/2.2.1.RELEASE/spring-boot-tools-2.2.1.RELEASE.pom
+2019-11-18 15:30:34,388 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/2.2.1.RELEASE/spring-boot-tools-2.2.1.RELEASE.pom
+2019-11-18 15:30:34,536 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/2.2.1.RELEASE/spring-boot-parent-2.2.1.RELEASE.pom
+2019-11-18 15:30:34,668 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/2.2.1.RELEASE/spring-boot-parent-2.2.1.RELEASE.pom
+2019-11-18 15:30:34,871 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.2.1.RELEASE/spring-boot-maven-plugin-2.2.1.RELEASE.jar
+2019-11-18 15:30:35,238 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.2.1.RELEASE/spring-boot-maven-plugin-2.2.1.RELEASE.jar
+2019-11-18 15:30:43,701 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:30:43,829 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.1.RELEASE/spring-boot-starter-security-2.2.1.RELEASE.pom
+2019-11-18 15:30:43,959 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.1.RELEASE/spring-boot-starter-security-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,147 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/2.2.1.RELEASE/spring-boot-starters-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,278 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/2.2.1.RELEASE/spring-boot-starters-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,411 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,547 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,681 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,815 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE.pom
+2019-11-18 15:30:44,947 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.pom
+2019-11-18 15:30:45,078 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.pom
+2019-11-18 15:30:45,208 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.pom
+2019-11-18 15:30:45,534 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.pom
+2019-11-18 15:30:45,689 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.pom
+2019-11-18 15:30:45,820 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.pom
+2019-11-18 15:30:45,955 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.pom
+2019-11-18 15:30:46,094 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.pom
+2019-11-18 15:30:46,226 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.pom
+2019-11-18 15:30:46,360 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.pom
+2019-11-18 15:30:46,490 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.pom
+2019-11-18 15:30:46,623 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.pom
+2019-11-18 15:30:46,754 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.pom
+2019-11-18 15:30:46,893 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.pom
+2019-11-18 15:30:47,026 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE.pom
+2019-11-18 15:30:47,158 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE.pom
+2019-11-18 15:30:47,364 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.pom
+2019-11-18 15:30:47,514 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.pom
+2019-11-18 15:30:47,645 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.29/slf4j-parent-1.7.29.pom
+2019-11-18 15:30:47,782 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.29/slf4j-parent-1.7.29.pom
+2019-11-18 15:30:48,024 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.pom
+2019-11-18 15:30:48,165 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.pom
+2019-11-18 15:30:48,421 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.pom
+2019-11-18 15:30:48,554 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.pom
+2019-11-18 15:30:48,688 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2019-11-18 15:30:48,815 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2019-11-18 15:30:48,946 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.pom
+2019-11-18 15:30:49,085 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.pom
+2019-11-18 15:30:49,227 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.pom
+2019-11-18 15:30:49,360 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.pom
+2019-11-18 15:30:49,503 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.2.1.RELEASE/spring-boot-starter-web-2.2.1.RELEASE.pom
+2019-11-18 15:30:49,630 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.2.1.RELEASE/spring-boot-starter-web-2.2.1.RELEASE.pom
+2019-11-18 15:30:49,764 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.2.1.RELEASE/spring-boot-starter-json-2.2.1.RELEASE.pom
+2019-11-18 15:30:49,893 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.2.1.RELEASE/spring-boot-starter-json-2.2.1.RELEASE.pom
+2019-11-18 15:30:50,216 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.2.1.RELEASE/spring-boot-starter-tomcat-2.2.1.RELEASE.pom
+2019-11-18 15:30:50,356 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.2.1.RELEASE/spring-boot-starter-tomcat-2.2.1.RELEASE.pom
+2019-11-18 15:30:50,537 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.2.1.RELEASE/spring-boot-starter-validation-2.2.1.RELEASE.pom
+2019-11-18 15:30:50,666 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.2.1.RELEASE/spring-boot-starter-validation-2.2.1.RELEASE.pom
+2019-11-18 15:30:50,817 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.pom
+2019-11-18 15:30:50,948 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.pom
+2019-11-18 15:30:51,078 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.18.Final/hibernate-validator-parent-6.0.18.Final.pom
+2019-11-18 15:30:51,207 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.18.Final/hibernate-validator-parent-6.0.18.Final.pom
+2019-11-18 15:30:51,515 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.pom
+2019-11-18 15:30:51,650 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.pom
+2019-11-18 15:30:51,802 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.pom
+2019-11-18 15:30:51,930 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.pom
+2019-11-18 15:30:52,061 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.1.RELEASE/spring-boot-starter-test-2.2.1.RELEASE.pom
+2019-11-18 15:30:52,190 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.1.RELEASE/spring-boot-starter-test-2.2.1.RELEASE.pom
+2019-11-18 15:30:52,341 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.2.1.RELEASE/spring-boot-test-2.2.1.RELEASE.pom
+2019-11-18 15:30:52,472 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.2.1.RELEASE/spring-boot-test-2.2.1.RELEASE.pom
+2019-11-18 15:30:52,636 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.1.RELEASE/spring-boot-test-autoconfigure-2.2.1.RELEASE.pom
+2019-11-18 15:30:52,764 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.1.RELEASE/spring-boot-test-autoconfigure-2.2.1.RELEASE.pom
+2019-11-18 15:30:53,284 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.pom
+2019-11-18 15:30:53,414 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.pom
+2019-11-18 15:30:53,559 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.2/byte-buddy-parent-1.10.2.pom
+2019-11-18 15:30:53,690 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.2/byte-buddy-parent-1.10.2.pom
+2019-11-18 15:30:53,820 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.2/byte-buddy-agent-1.10.2.pom
+2019-11-18 15:30:53,950 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.2/byte-buddy-agent-1.10.2.pom
+2019-11-18 15:30:54,261 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.pom
+2019-11-18 15:30:54,389 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.pom
+2019-11-18 15:30:54,577 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.1.RELEASE/spring-security-test-5.2.1.RELEASE.pom
+2019-11-18 15:30:54,704 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.1.RELEASE/spring-security-test-5.2.1.RELEASE.pom
+2019-11-18 15:30:54,940 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.1.RELEASE/spring-boot-starter-security-2.2.1.RELEASE.jar
+2019-11-18 15:30:55,068 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.1.RELEASE/spring-boot-starter-security-2.2.1.RELEASE.jar
+2019-11-18 15:30:55,190 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE.jar
+2019-11-18 15:30:55,321 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE.jar
+2019-11-18 15:30:55,445 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE.jar
+2019-11-18 15:30:56,358 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE.jar
+2019-11-18 15:30:56,486 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar
+2019-11-18 15:30:56,949 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar
+2019-11-18 15:30:57,081 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE.jar
+2019-11-18 15:30:57,215 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE.jar
+2019-11-18 15:30:57,338 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar
+2019-11-18 15:30:57,465 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar
+2019-11-18 15:30:57,588 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar
+2019-11-18 15:30:57,738 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar
+2019-11-18 15:30:57,861 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,019 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,144 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,317 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,443 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,644 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,767 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar
+2019-11-18 15:30:58,923 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar
+2019-11-18 15:30:59,046 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.jar
+2019-11-18 15:30:59,199 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.jar
+2019-11-18 15:30:59,322 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.2.1.RELEASE/spring-boot-starter-web-2.2.1.RELEASE.jar
+2019-11-18 15:30:59,452 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.2.1.RELEASE/spring-boot-starter-web-2.2.1.RELEASE.jar
+2019-11-18 15:30:59,576 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.2.1.RELEASE/spring-boot-starter-json-2.2.1.RELEASE.jar
+2019-11-18 15:30:59,703 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.2.1.RELEASE/spring-boot-starter-json-2.2.1.RELEASE.jar
+2019-11-18 15:30:59,825 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.2.1.RELEASE/spring-boot-starter-tomcat-2.2.1.RELEASE.jar
+2019-11-18 15:30:59,953 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.2.1.RELEASE/spring-boot-starter-tomcat-2.2.1.RELEASE.jar
+2019-11-18 15:31:00,074 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.2.1.RELEASE/spring-boot-starter-validation-2.2.1.RELEASE.jar
+2019-11-18 15:31:00,202 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.2.1.RELEASE/spring-boot-starter-validation-2.2.1.RELEASE.jar
+2019-11-18 15:31:00,323 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar
+2019-11-18 15:31:00,538 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar
+2019-11-18 15:31:00,663 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar
+2019-11-18 15:31:00,792 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar
+2019-11-18 15:31:00,914 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar
+2019-11-18 15:31:01,094 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar
+2019-11-18 15:31:01,220 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.jar
+2019-11-18 15:31:01,389 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.jar
+2019-11-18 15:31:01,511 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.1.RELEASE/spring-boot-starter-test-2.2.1.RELEASE.jar
+2019-11-18 15:31:01,639 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.1.RELEASE/spring-boot-starter-test-2.2.1.RELEASE.jar
+2019-11-18 15:31:01,765 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.2.1.RELEASE/spring-boot-test-2.2.1.RELEASE.jar
+2019-11-18 15:31:01,991 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.2.1.RELEASE/spring-boot-test-2.2.1.RELEASE.jar
+2019-11-18 15:31:02,116 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.1.RELEASE/spring-boot-test-autoconfigure-2.2.1.RELEASE.jar
+2019-11-18 15:31:02,346 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.1.RELEASE/spring-boot-test-autoconfigure-2.2.1.RELEASE.jar
+2019-11-18 15:31:02,470 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar
+2019-11-18 15:31:02,599 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar
+2019-11-18 15:31:02,722 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar
+2019-11-18 15:31:03,058 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar
+2019-11-18 15:31:03,181 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.2/byte-buddy-agent-1.10.2.jar
+2019-11-18 15:31:03,318 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.2/byte-buddy-agent-1.10.2.jar
+2019-11-18 15:31:03,441 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar
+2019-11-18 15:31:03,631 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar
+2019-11-18 15:31:03,754 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.jar
+2019-11-18 15:31:03,882 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.jar
+2019-11-18 15:31:04,006 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.jar
+2019-11-18 15:31:04,176 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.jar
+2019-11-18 15:31:04,303 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.1.RELEASE/spring-security-test-5.2.1.RELEASE.jar
+2019-11-18 15:31:04,445 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.1.RELEASE/spring-security-test-5.2.1.RELEASE.jar
+2019-11-18 15:31:04,596 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2019-11-18 15:31:04,756 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2019-11-18 15:31:14,470 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Eureka:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\pom.xml.
+2019-11-18 15:31:22,866 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Zuul_Service:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\pom.xml.
+2019-11-18 15:31:25,092 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-18 15:31:35,130 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Token/src/main/java
+2019-11-18 15:31:35,130 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Token/src/main/resources
+2019-11-18 15:31:35,155 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Token/src/main/resources
+2019-11-18 15:31:35,166 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Token/src/test/java
+2019-11-18 15:31:35,990 [Worker-902] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 78 sec
+2019-11-18 15:31:39,529 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:39,571 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:39,572 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:39,574 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:39,587 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\src\test\resources
+2019-11-18 15:31:40,837 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:40,846 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:40,846 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:40,847 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:40,848 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-18 15:31:41,932 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:41,962 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:31:42,285 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:42,286 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:42,286 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:31:43,801 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:43,801 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:43,802 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:43,802 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:44,056 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:31:45,424 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:45,424 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:31:45,425 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:31:45,451 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:31:45,451 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:34:49,761 [Worker-896] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:34:51,555 [Worker-896] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-11-18 15:34:51,852 [Worker-896] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-11-18 15:34:52,586 [Worker-896] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+2019-11-18 15:34:53,037 [Worker-896] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+2019-11-18 15:34:53,741 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:34:53,742 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:34:53,742 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:34:54,126 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:34:54,126 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:34:56,661 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:34:56,663 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:34:56,672 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:34:56,673 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:34:56,673 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:35:01,184 [Worker-894] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:35:01,679 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:35:01,680 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:35:01,680 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:35:01,681 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:35:01,681 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:35:53,547 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:35:53,547 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:35:53,548 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:35:53,553 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:35:53,553 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:36:12,729 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:36:12,729 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:36:12,731 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:36:12,732 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:36:12,732 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:36:52,970 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:36:52,970 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:36:52,974 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:36:52,975 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:36:52,976 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-18 15:37:35,860 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:37:35,861 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:37:35,864 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:37:35,866 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:37:35,866 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:37:42,589 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:37:42,589 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:37:42,591 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:37:42,595 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:37:42,595 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:41:40,536 [Worker-898] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:41:41,274 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.0.0.RELEASE/spring-cloud-commons-1.0.0.RELEASE.pom
+2019-11-18 15:41:41,421 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.0.0.RELEASE/spring-cloud-commons-1.0.0.RELEASE.pom
+2019-11-18 15:41:41,586 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/1.0.0.RELEASE/spring-cloud-build-1.0.0.RELEASE.pom
+2019-11-18 15:41:41,740 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/1.0.0.RELEASE/spring-cloud-build-1.0.0.RELEASE.pom
+2019-11-18 15:41:41,912 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-parent/1.0.0.RELEASE/spring-cloud-parent-1.0.0.RELEASE.pom
+2019-11-18 15:41:42,051 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-parent/1.0.0.RELEASE/spring-cloud-parent-1.0.0.RELEASE.pom
+2019-11-18 15:41:42,197 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.2.2.RELEASE/spring-boot-starter-parent-1.2.2.RELEASE.pom
+2019-11-18 15:41:42,343 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.2.2.RELEASE/spring-boot-starter-parent-1.2.2.RELEASE.pom
+2019-11-18 15:41:42,488 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.2.2.RELEASE/spring-boot-dependencies-1.2.2.RELEASE.pom
+2019-11-18 15:41:42,771 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.2.2.RELEASE/spring-boot-dependencies-1.2.2.RELEASE.pom
+2019-11-18 15:41:42,913 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.1.5.RELEASE/spring-framework-bom-4.1.5.RELEASE.pom
+2019-11-18 15:41:43,051 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.1.5.RELEASE/spring-framework-bom-4.1.5.RELEASE.pom
+2019-11-18 15:41:43,192 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Evans-SR2/spring-data-releasetrain-Evans-SR2.pom
+2019-11-18 15:41:43,334 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Evans-SR2/spring-data-releasetrain-Evans-SR2.pom
+2019-11-18 15:41:43,481 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.5.2.RELEASE/spring-data-build-1.5.2.RELEASE.pom
+2019-11-18 15:41:43,621 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.5.2.RELEASE/spring-data-build-1.5.2.RELEASE.pom
+2019-11-18 15:41:43,765 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.1.2.RELEASE/spring-integration-bom-4.1.2.RELEASE.pom
+2019-11-18 15:41:43,913 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.1.2.RELEASE/spring-integration-bom-4.1.2.RELEASE.pom
+2019-11-18 15:41:44,062 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/3.2.6.RELEASE/spring-security-bom-3.2.6.RELEASE.pom
+2019-11-18 15:41:44,212 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/3.2.6.RELEASE/spring-security-bom-3.2.6.RELEASE.pom
+2019-11-18 15:41:44,790 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.0.0.RELEASE/spring-cloud-commons-1.0.0.RELEASE.jar
+2019-11-18 15:41:44,946 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/1.0.0.RELEASE/spring-cloud-commons-1.0.0.RELEASE.jar
+2019-11-18 15:41:45,818 [Worker-898] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Zuul_Service:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\pom.xml.
+2019-11-18 15:41:47,761 [Worker-898] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Eureka:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\pom.xml.
+2019-11-18 15:41:49,129 [Worker-898] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-18 15:41:52,495 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:52,495 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:52,496 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:52,497 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:52,497 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:41:54,205 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:54,205 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:54,205 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:54,206 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:54,206 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\src\test\resources
+2019-11-18 15:41:55,222 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:55,222 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:55,222 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:55,224 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:55,224 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-18 15:41:55,889 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:55,891 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 15:41:55,894 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:55,895 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:55,895 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:41:56,512 [Worker-901] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:41:56,916 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:56,916 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:56,916 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:56,917 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:56,917 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:41:58,506 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:58,506 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:58,506 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:41:58,507 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:41:58,508 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:43:38,655 [Worker-898] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:43:39,179 [Worker-899] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.pom
+2019-11-18 15:43:39,325 [Worker-899] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.pom
+2019-11-18 15:43:39,344 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.pom
+2019-11-18 15:43:39,877 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.pom
+2019-11-18 15:43:41,340 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.jar
+2019-11-18 15:43:41,347 [Worker-899] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.jar
+2019-11-18 15:43:41,980 [Worker-898] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.jar
+2019-11-18 15:43:42,034 [Worker-899] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.jar
+2019-11-18 15:43:42,450 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:43:42,450 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:43:42,450 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:43:42,451 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:43:42,452 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:43:44,726 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:43:44,728 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 15:43:44,732 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:43:44,735 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:43:44,735 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:44:01,020 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:44:01,022 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 15:44:01,027 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:44:01,028 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:44:01,028 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:45:21,057 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:45:21,058 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:45:21,058 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:45:21,062 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:45:21,062 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:45:27,711 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:45:27,712 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:45:27,712 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:45:27,716 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:45:27,716 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:49:15,637 [Worker-896] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:51:53,986 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:51:53,986 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:51:53,987 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:51:53,991 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:51:53,992 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 15:52:37,750 [Worker-900] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:52:38,252 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:52:38,253 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:52:38,253 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:52:38,254 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:52:38,254 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:53:15,330 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:53:15,331 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:53:15,333 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:53:15,334 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:53:15,334 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:54:03,681 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:54:03,681 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:54:03,683 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:54:03,685 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:54:03,685 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:54:16,492 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:54:16,492 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:54:16,494 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:54:16,497 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:54:16,497 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:56:03,829 [Worker-896] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\pom.xml.
+2019-11-18 15:56:04,333 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:56:04,334 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:56:04,334 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:56:04,335 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:56:04,335 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 15:57:16,919 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:57:16,919 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 15:57:16,921 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 15:57:16,923 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 15:57:16,923 [Worker-901] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 16:14:39,016 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:14:39,016 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:14:39,017 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:14:39,022 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:14:39,022 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 16:14:51,975 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:14:51,976 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:14:51,976 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:14:51,979 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:14:51,979 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 16:15:16,048 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:15:16,048 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:15:16,049 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:15:16,054 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:15:16,054 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 16:18:08,723 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:18:08,724 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:18:08,728 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:18:08,730 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:18:08,730 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Token\src\test\resources
+2019-11-18 16:22:57,601 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-dependencies/Hoxton.RC2/spring-cloud-dependencies-Hoxton.RC2.pom
+2019-11-18 16:22:57,938 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-dependencies/Hoxton.RC2/spring-cloud-dependencies-Hoxton.RC2.pom
+2019-11-18 16:22:58,268 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-dependencies-parent/2.2.0.RC2/spring-cloud-dependencies-parent-2.2.0.RC2.pom
+2019-11-18 16:22:58,574 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-dependencies-parent/2.2.0.RC2/spring-cloud-dependencies-parent-2.2.0.RC2.pom
+2019-11-18 16:22:58,882 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons-dependencies/2.2.0.RC2/spring-cloud-commons-dependencies-2.2.0.RC2.pom
+2019-11-18 16:22:59,193 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons-dependencies/2.2.0.RC2/spring-cloud-commons-dependencies-2.2.0.RC2.pom
+2019-11-18 16:22:59,576 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-dependencies/2.2.0.RC2/spring-cloud-netflix-dependencies-2.2.0.RC2.pom
+2019-11-18 16:22:59,965 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-dependencies/2.2.0.RC2/spring-cloud-netflix-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:00,318 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-stream-dependencies/Horsham.RC2/spring-cloud-stream-dependencies-Horsham.RC2.pom
+2019-11-18 16:23:00,691 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-stream-dependencies/Horsham.RC2/spring-cloud-stream-dependencies-Horsham.RC2.pom
+2019-11-18 16:23:01,061 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/1.0.0.RC2/spring-cloud-circuitbreaker-dependencies-1.0.0.RC2.pom
+2019-11-18 16:23:01,375 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/1.0.0.RC2/spring-cloud-circuitbreaker-dependencies-1.0.0.RC2.pom
+2019-11-18 16:23:01,705 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-config-dependencies/2.2.0.RC2/spring-cloud-config-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:02,016 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-config-dependencies/2.2.0.RC2/spring-cloud-config-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:02,331 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-function-dependencies/3.0.0.RC2/spring-cloud-function-dependencies-3.0.0.RC2.pom
+2019-11-18 16:23:02,635 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-function-dependencies/3.0.0.RC2/spring-cloud-function-dependencies-3.0.0.RC2.pom
+2019-11-18 16:23:02,965 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gateway-dependencies/2.2.0.RC2/spring-cloud-gateway-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:03,269 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gateway-dependencies/2.2.0.RC2/spring-cloud-gateway-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:03,584 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-consul-dependencies/2.2.0.RC2/spring-cloud-consul-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:03,938 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-consul-dependencies/2.2.0.RC2/spring-cloud-consul-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:04,273 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-sleuth-dependencies/2.2.0.RC2/spring-cloud-sleuth-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:04,590 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-sleuth-dependencies/2.2.0.RC2/spring-cloud-sleuth-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:04,892 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/zipkin/brave/brave-bom/5.9.0/brave-bom-5.9.0.pom
+2019-11-18 16:23:05,621 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.9.0/brave-bom-5.9.0.pom
+2019-11-18 16:23:05,759 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.9.0/brave-bom-5.9.0.pom
+2019-11-18 16:23:06,118 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/zipkin/reporter2/zipkin-reporter-bom/2.11.0/zipkin-reporter-bom-2.11.0.pom
+2019-11-18 16:23:06,249 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.11.0/zipkin-reporter-bom-2.11.0.pom
+2019-11-18 16:23:06,390 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.11.0/zipkin-reporter-bom-2.11.0.pom
+2019-11-18 16:23:06,722 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-vault-dependencies/2.2.0.RC2/spring-cloud-vault-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:07,032 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-vault-dependencies/2.2.0.RC2/spring-cloud-vault-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:07,394 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-zookeeper-dependencies/2.2.0.RC2/spring-cloud-zookeeper-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:07,733 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-zookeeper-dependencies/2.2.0.RC2/spring-cloud-zookeeper-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:08,070 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-security-dependencies/2.2.0.RC2/spring-cloud-security-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:08,377 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-security-dependencies/2.2.0.RC2/spring-cloud-security-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:08,721 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/2.2.0.RC2/spring-cloud-cloudfoundry-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:09,031 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/2.2.0.RC2/spring-cloud-cloudfoundry-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:09,343 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-bus-dependencies/2.2.0.RC2/spring-cloud-bus-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:09,644 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-bus-dependencies/2.2.0.RC2/spring-cloud-bus-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:09,953 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-contract-dependencies/2.2.0.RC2/spring-cloud-contract-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:10,257 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-contract-dependencies/2.2.0.RC2/spring-cloud-contract-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:10,560 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-aws-dependencies/2.2.0.RC2/spring-cloud-aws-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:10,880 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-aws-dependencies/2.2.0.RC2/spring-cloud-aws-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:11,217 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-openfeign-dependencies/2.2.0.RC2/spring-cloud-openfeign-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:11,568 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-openfeign-dependencies/2.2.0.RC2/spring-cloud-openfeign-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:11,876 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-kubernetes-dependencies/1.1.0.RC2/spring-cloud-kubernetes-dependencies-1.1.0.RC2.pom
+2019-11-18 16:23:12,186 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-kubernetes-dependencies/1.1.0.RC2/spring-cloud-kubernetes-dependencies-1.1.0.RC2.pom
+2019-11-18 16:23:12,502 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gcp-dependencies/1.2.0.RC2/spring-cloud-gcp-dependencies-1.2.0.RC2.pom
+2019-11-18 16:23:12,861 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gcp-dependencies/1.2.0.RC2/spring-cloud-gcp-dependencies-1.2.0.RC2.pom
+2019-11-18 16:23:13,157 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-bom/0.118.0-alpha/google-cloud-bom-0.118.0-alpha.pom
+2019-11-18 16:23:13,292 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-bom/0.118.0-alpha/google-cloud-bom-0.118.0-alpha.pom
+2019-11-18 16:23:13,561 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-bom/0.118.0-alpha/google-cloud-bom-0.118.0-alpha.pom
+2019-11-18 16:23:13,920 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/api/gax-bom/1.49.1/gax-bom-1.49.1.pom
+2019-11-18 16:23:14,056 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.49.1/gax-bom-1.49.1.pom
+2019-11-18 16:23:14,193 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.49.1/gax-bom-1.49.1.pom
+2019-11-18 16:23:14,584 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-asset-bom/0.115.0-beta/google-cloud-asset-bom-0.115.0-beta.pom
+2019-11-18 16:23:14,751 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-asset-bom/0.115.0-beta/google-cloud-asset-bom-0.115.0-beta.pom
+2019-11-18 16:23:14,894 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-asset-bom/0.115.0-beta/google-cloud-asset-bom-0.115.0-beta.pom
+2019-11-18 16:23:15,266 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-shared-config/0.2.1/google-cloud-shared-config-0.2.1.pom
+2019-11-18 16:23:15,402 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/0.2.1/google-cloud-shared-config-0.2.1.pom
+2019-11-18 16:23:15,554 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/0.2.1/google-cloud-shared-config-0.2.1.pom
+2019-11-18 16:23:15,926 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-automl-bom/0.114.1-beta/google-cloud-automl-bom-0.114.1-beta.pom
+2019-11-18 16:23:16,060 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-automl-bom/0.114.1-beta/google-cloud-automl-bom-0.114.1-beta.pom
+2019-11-18 16:23:16,195 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-automl-bom/0.114.1-beta/google-cloud-automl-bom-0.114.1-beta.pom
+2019-11-18 16:23:16,526 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-core-bom/1.91.3/google-cloud-core-bom-1.91.3.pom
+2019-11-18 16:23:16,660 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-bom/1.91.3/google-cloud-core-bom-1.91.3.pom
+2019-11-18 16:23:16,820 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-bom/1.91.3/google-cloud-core-bom-1.91.3.pom
+2019-11-18 16:23:17,342 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-datacatalog-bom/0.29.0-alpha/google-cloud-datacatalog-bom-0.29.0-alpha.pom
+2019-11-18 16:23:17,479 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-datacatalog-bom/0.29.0-alpha/google-cloud-datacatalog-bom-0.29.0-alpha.pom
+2019-11-18 16:23:17,622 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-datacatalog-bom/0.29.0-alpha/google-cloud-datacatalog-bom-0.29.0-alpha.pom
+2019-11-18 16:23:17,997 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-datalabeling-bom/0.116.1-alpha/google-cloud-datalabeling-bom-0.116.1-alpha.pom
+2019-11-18 16:23:18,130 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-datalabeling-bom/0.116.1-alpha/google-cloud-datalabeling-bom-0.116.1-alpha.pom
+2019-11-18 16:23:18,275 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-datalabeling-bom/0.116.1-alpha/google-cloud-datalabeling-bom-0.116.1-alpha.pom
+2019-11-18 16:23:18,655 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-dlp-bom/0.116.0-beta/google-cloud-dlp-bom-0.116.0-beta.pom
+2019-11-18 16:23:18,793 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-dlp-bom/0.116.0-beta/google-cloud-dlp-bom-0.116.0-beta.pom
+2019-11-18 16:23:18,931 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-dlp-bom/0.116.0-beta/google-cloud-dlp-bom-0.116.0-beta.pom
+2019-11-18 16:23:19,293 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-speech-bom/1.21.0/google-cloud-speech-bom-1.21.0.pom
+2019-11-18 16:23:19,432 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-speech-bom/1.21.0/google-cloud-speech-bom-1.21.0.pom
+2019-11-18 16:23:19,573 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-speech-bom/1.21.0/google-cloud-speech-bom-1.21.0.pom
+2019-11-18 16:23:19,949 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-tasks-bom/1.26.0/google-cloud-tasks-bom-1.26.0.pom
+2019-11-18 16:23:20,084 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-tasks-bom/1.26.0/google-cloud-tasks-bom-1.26.0.pom
+2019-11-18 16:23:20,238 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-tasks-bom/1.26.0/google-cloud-tasks-bom-1.26.0.pom
+2019-11-18 16:23:20,629 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-texttospeech-bom/0.117.0-beta/google-cloud-texttospeech-bom-0.117.0-beta.pom
+2019-11-18 16:23:20,765 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-texttospeech-bom/0.117.0-beta/google-cloud-texttospeech-bom-0.117.0-beta.pom
+2019-11-18 16:23:20,910 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-texttospeech-bom/0.117.0-beta/google-cloud-texttospeech-bom-0.117.0-beta.pom
+2019-11-18 16:23:21,291 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-trace-bom/0.109.0-beta/google-cloud-trace-bom-0.109.0-beta.pom
+2019-11-18 16:23:21,420 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-trace-bom/0.109.0-beta/google-cloud-trace-bom-0.109.0-beta.pom
+2019-11-18 16:23:21,557 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-trace-bom/0.109.0-beta/google-cloud-trace-bom-0.109.0-beta.pom
+2019-11-18 16:23:21,914 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-translate-bom/1.94.0/google-cloud-translate-bom-1.94.0.pom
+2019-11-18 16:23:22,041 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-translate-bom/1.94.0/google-cloud-translate-bom-1.94.0.pom
+2019-11-18 16:23:22,185 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-translate-bom/1.94.0/google-cloud-translate-bom-1.94.0.pom
+2019-11-18 16:23:22,537 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-vision-bom/1.98.0/google-cloud-vision-bom-1.98.0.pom
+2019-11-18 16:23:22,676 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-vision-bom/1.98.0/google-cloud-vision-bom-1.98.0.pom
+2019-11-18 16:23:22,814 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-vision-bom/1.98.0/google-cloud-vision-bom-1.98.0.pom
+2019-11-18 16:23:23,177 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-iot-bom/0.116.0-beta/google-cloud-iot-bom-0.116.0-beta.pom
+2019-11-18 16:23:23,318 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-iot-bom/0.116.0-beta/google-cloud-iot-bom-0.116.0-beta.pom
+2019-11-18 16:23:23,451 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-iot-bom/0.116.0-beta/google-cloud-iot-bom-0.116.0-beta.pom
+2019-11-18 16:23:23,818 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-websecurityscanner-bom/0.116.0/google-cloud-websecurityscanner-bom-0.116.0.pom
+2019-11-18 16:23:23,950 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-websecurityscanner-bom/0.116.0/google-cloud-websecurityscanner-bom-0.116.0.pom
+2019-11-18 16:23:24,086 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-websecurityscanner-bom/0.116.0/google-cloud-websecurityscanner-bom-0.116.0.pom
+2019-11-18 16:23:24,423 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-iamcredentials-bom/0.43.0-alpha/google-cloud-iamcredentials-bom-0.43.0-alpha.pom
+2019-11-18 16:23:24,561 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-iamcredentials-bom/0.43.0-alpha/google-cloud-iamcredentials-bom-0.43.0-alpha.pom
+2019-11-18 16:23:24,702 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-iamcredentials-bom/0.43.0-alpha/google-cloud-iamcredentials-bom-0.43.0-alpha.pom
+2019-11-18 16:23:25,053 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-talent-bom/0.34.0-beta/google-cloud-talent-bom-0.34.0-beta.pom
+2019-11-18 16:23:25,180 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-talent-bom/0.34.0-beta/google-cloud-talent-bom-0.34.0-beta.pom
+2019-11-18 16:23:25,326 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-talent-bom/0.34.0-beta/google-cloud-talent-bom-0.34.0-beta.pom
+2019-11-18 16:23:25,663 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-phishingprotection-bom/0.28.0/google-cloud-phishingprotection-bom-0.28.0.pom
+2019-11-18 16:23:25,834 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-phishingprotection-bom/0.28.0/google-cloud-phishingprotection-bom-0.28.0.pom
+2019-11-18 16:23:25,983 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-phishingprotection-bom/0.28.0/google-cloud-phishingprotection-bom-0.28.0.pom
+2019-11-18 16:23:26,359 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/cloud/google-cloud-gameservices-bom/0.17.0/google-cloud-gameservices-bom-0.17.0.pom
+2019-11-18 16:23:26,490 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-gameservices-bom/0.17.0/google-cloud-gameservices-bom-0.17.0.pom
+2019-11-18 16:23:26,640 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-gameservices-bom/0.17.0/google-cloud-gameservices-bom-0.17.0.pom
+2019-11-18 16:23:28,370 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\pom.xml.
+2019-11-18 16:23:28,731 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-actuator/2.2.1.RELEASE/spring-boot-starter-actuator-2.2.1.RELEASE.pom
+2019-11-18 16:23:29,045 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-actuator/2.2.1.RELEASE/spring-boot-starter-actuator-2.2.1.RELEASE.pom
+2019-11-18 16:23:29,491 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.1.RELEASE/spring-boot-actuator-autoconfigure-2.2.1.RELEASE.pom
+2019-11-18 16:23:29,822 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.1.RELEASE/spring-boot-actuator-autoconfigure-2.2.1.RELEASE.pom
+2019-11-18 16:23:30,155 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator/2.2.1.RELEASE/spring-boot-actuator-2.2.1.RELEASE.pom
+2019-11-18 16:23:30,565 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator/2.2.1.RELEASE/spring-boot-actuator-2.2.1.RELEASE.pom
+2019-11-18 16:23:30,889 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.pom
+2019-11-18 16:23:31,022 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.pom
+2019-11-18 16:23:31,161 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.pom
+2019-11-18 16:23:31,579 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.2.1.RELEASE/spring-boot-starter-data-rest-2.2.1.RELEASE.pom
+2019-11-18 16:23:32,046 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.2.1.RELEASE/spring-boot-starter-data-rest-2.2.1.RELEASE.pom
+2019-11-18 16:23:32,452 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.pom
+2019-11-18 16:23:32,771 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.pom
+2019-11-18 16:23:33,205 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-parent/3.2.1.RELEASE/spring-data-rest-parent-3.2.1.RELEASE.pom
+2019-11-18 16:23:33,563 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-parent/3.2.1.RELEASE/spring-data-rest-parent-3.2.1.RELEASE.pom
+2019-11-18 16:23:33,875 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/build/spring-data-parent/2.2.1.RELEASE/spring-data-parent-2.2.1.RELEASE.pom
+2019-11-18 16:23:34,212 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/build/spring-data-parent/2.2.1.RELEASE/spring-data-parent-2.2.1.RELEASE.pom
+2019-11-18 16:23:34,535 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-core/3.2.1.RELEASE/spring-data-rest-core-3.2.1.RELEASE.pom
+2019-11-18 16:23:34,847 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-core/3.2.1.RELEASE/spring-data-rest-core-3.2.1.RELEASE.pom
+2019-11-18 16:23:35,175 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.pom
+2019-11-18 16:23:35,489 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.pom
+2019-11-18 16:23:35,882 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/hateoas/spring-hateoas/1.0.1.RELEASE/spring-hateoas-1.0.1.RELEASE.pom
+2019-11-18 16:23:36,195 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/hateoas/spring-hateoas/1.0.1.RELEASE/spring-hateoas-1.0.1.RELEASE.pom
+2019-11-18 16:23:36,525 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.pom
+2019-11-18 16:23:36,843 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.pom
+2019-11-18 16:23:37,273 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/plugin/spring-plugin/2.0.0.RELEASE/spring-plugin-2.0.0.RELEASE.pom
+2019-11-18 16:23:37,650 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/plugin/spring-plugin/2.0.0.RELEASE/spring-plugin-2.0.0.RELEASE.pom
+2019-11-18 16:23:38,026 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-commons/2.2.1.RELEASE/spring-data-commons-2.2.1.RELEASE.pom
+2019-11-18 16:23:38,346 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-commons/2.2.1.RELEASE/spring-data-commons-2.2.1.RELEASE.pom
+2019-11-18 16:23:38,751 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.0.RC2/spring-cloud-starter-netflix-eureka-client-2.2.0.RC2.pom
+2019-11-18 16:23:39,073 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.0.RC2/spring-cloud-starter-netflix-eureka-client-2.2.0.RC2.pom
+2019-11-18 16:23:39,381 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix/2.2.0.RC2/spring-cloud-starter-netflix-2.2.0.RC2.pom
+2019-11-18 16:23:39,695 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix/2.2.0.RC2/spring-cloud-starter-netflix-2.2.0.RC2.pom
+2019-11-18 16:23:40,018 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix/2.2.0.RC2/spring-cloud-netflix-2.2.0.RC2.pom
+2019-11-18 16:23:40,332 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix/2.2.0.RC2/spring-cloud-netflix-2.2.0.RC2.pom
+2019-11-18 16:23:40,676 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-build/2.2.0.RC2/spring-cloud-build-2.2.0.RC2.pom
+2019-11-18 16:23:41,002 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-build/2.2.0.RC2/spring-cloud-build-2.2.0.RC2.pom
+2019-11-18 16:23:41,792 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-build-dependencies/2.2.0.RC2/spring-cloud-build-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:42,099 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-build-dependencies/2.2.0.RC2/spring-cloud-build-dependencies-2.2.0.RC2.pom
+2019-11-18 16:23:42,411 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter/2.2.0.RC2/spring-cloud-starter-2.2.0.RC2.pom
+2019-11-18 16:23:42,755 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter/2.2.0.RC2/spring-cloud-starter-2.2.0.RC2.pom
+2019-11-18 16:23:43,082 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons-parent/2.2.0.RC2/spring-cloud-commons-parent-2.2.0.RC2.pom
+2019-11-18 16:23:43,394 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons-parent/2.2.0.RC2/spring-cloud-commons-parent-2.2.0.RC2.pom
+2019-11-18 16:23:43,721 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-context/2.2.0.RC2/spring-cloud-context-2.2.0.RC2.pom
+2019-11-18 16:23:44,028 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-context/2.2.0.RC2/spring-cloud-context-2.2.0.RC2.pom
+2019-11-18 16:23:44,342 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/security/spring-security-crypto/5.2.1.RELEASE/spring-security-crypto-5.2.1.RELEASE.pom
+2019-11-18 16:23:44,651 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/security/spring-security-crypto/5.2.1.RELEASE/spring-security-crypto-5.2.1.RELEASE.pom
+2019-11-18 16:23:44,963 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons/2.2.0.RC2/spring-cloud-commons-2.2.0.RC2.pom
+2019-11-18 16:23:45,277 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons/2.2.0.RC2/spring-cloud-commons-2.2.0.RC2.pom
+2019-11-18 16:23:45,627 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.0.RC2/spring-cloud-netflix-hystrix-2.2.0.RC2.pom
+2019-11-18 16:23:45,940 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.0.RC2/spring-cloud-netflix-hystrix-2.2.0.RC2.pom
+2019-11-18 16:23:46,280 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE.pom
+2019-11-18 16:23:46,599 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE.pom
+2019-11-18 16:23:46,932 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.0.RC2/spring-cloud-netflix-eureka-client-2.2.0.RC2.pom
+2019-11-18 16:23:47,257 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.0.RC2/spring-cloud-netflix-eureka-client-2.2.0.RC2.pom
+2019-11-18 16:23:47,624 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/joda-time/joda-time/2.10.5/joda-time-2.10.5.pom
+2019-11-18 16:23:47,748 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.pom
+2019-11-18 16:23:47,893 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.pom
+2019-11-18 16:23:48,394 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.0.RC2/spring-cloud-starter-netflix-archaius-2.2.0.RC2.pom
+2019-11-18 16:23:48,699 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.0.RC2/spring-cloud-starter-netflix-archaius-2.2.0.RC2.pom
+2019-11-18 16:23:49,022 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.0.RC2/spring-cloud-netflix-ribbon-2.2.0.RC2.pom
+2019-11-18 16:23:49,370 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.0.RC2/spring-cloud-netflix-ribbon-2.2.0.RC2.pom
+2019-11-18 16:23:49,702 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.0.RC2/spring-cloud-netflix-archaius-2.2.0.RC2.pom
+2019-11-18 16:23:50,011 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.0.RC2/spring-cloud-netflix-archaius-2.2.0.RC2.pom
+2019-11-18 16:23:50,328 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.0.RC2/spring-cloud-starter-netflix-ribbon-2.2.0.RC2.pom
+2019-11-18 16:23:50,648 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.0.RC2/spring-cloud-starter-netflix-ribbon-2.2.0.RC2.pom
+2019-11-18 16:23:51,043 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.0.RC2/spring-cloud-starter-loadbalancer-2.2.0.RC2.pom
+2019-11-18 16:23:51,346 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.0.RC2/spring-cloud-starter-loadbalancer-2.2.0.RC2.pom
+2019-11-18 16:23:51,841 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-loadbalancer/2.2.0.RC2/spring-cloud-loadbalancer-2.2.0.RC2.pom
+2019-11-18 16:23:52,172 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-loadbalancer/2.2.0.RC2/spring-cloud-loadbalancer-2.2.0.RC2.pom
+2019-11-18 16:23:52,530 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.2.1.RELEASE/spring-boot-starter-cache-2.2.1.RELEASE.pom
+2019-11-18 16:23:52,835 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.2.1.RELEASE/spring-boot-starter-cache-2.2.1.RELEASE.pom
+2019-11-18 16:23:53,177 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/spring-context-support/5.2.1.RELEASE/spring-context-support-5.2.1.RELEASE.pom
+2019-11-18 16:23:53,481 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.2.1.RELEASE/spring-context-support-5.2.1.RELEASE.pom
+2019-11-18 16:23:54,097 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-actuator/2.2.1.RELEASE/spring-boot-starter-actuator-2.2.1.RELEASE.jar
+2019-11-18 16:23:54,583 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-actuator/2.2.1.RELEASE/spring-boot-starter-actuator-2.2.1.RELEASE.jar
+2019-11-18 16:23:54,902 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.1.RELEASE/spring-boot-actuator-autoconfigure-2.2.1.RELEASE.jar
+2019-11-18 16:23:56,547 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.1.RELEASE/spring-boot-actuator-autoconfigure-2.2.1.RELEASE.jar
+2019-11-18 16:23:56,863 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator/2.2.1.RELEASE/spring-boot-actuator-2.2.1.RELEASE.jar
+2019-11-18 16:23:58,548 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-actuator/2.2.1.RELEASE/spring-boot-actuator-2.2.1.RELEASE.jar
+2019-11-18 16:23:58,839 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.jar
+2019-11-18 16:23:59,266 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.2.1.RELEASE/spring-boot-starter-data-rest-2.2.1.RELEASE.jar
+2019-11-18 16:23:59,574 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.2.1.RELEASE/spring-boot-starter-data-rest-2.2.1.RELEASE.jar
+2019-11-18 16:23:59,895 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar
+2019-11-18 16:24:01,306 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar
+2019-11-18 16:24:01,657 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-core/3.2.1.RELEASE/spring-data-rest-core-3.2.1.RELEASE.jar
+2019-11-18 16:24:03,254 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-rest-core/3.2.1.RELEASE/spring-data-rest-core-3.2.1.RELEASE.jar
+2019-11-18 16:24:03,554 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar
+2019-11-18 16:24:04,803 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar
+2019-11-18 16:24:05,186 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/hateoas/spring-hateoas/1.0.1.RELEASE/spring-hateoas-1.0.1.RELEASE.jar
+2019-11-18 16:24:06,621 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/hateoas/spring-hateoas/1.0.1.RELEASE/spring-hateoas-1.0.1.RELEASE.jar
+2019-11-18 16:24:06,919 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/data/spring-data-commons/2.2.1.RELEASE/spring-data-commons-2.2.1.RELEASE.jar
+2019-11-18 16:24:08,114 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/data/spring-data-commons/2.2.1.RELEASE/spring-data-commons-2.2.1.RELEASE.jar
+2019-11-18 16:24:08,411 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar
+2019-11-18 16:24:08,760 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar
+2019-11-18 16:24:09,065 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.0.RC2/spring-cloud-starter-netflix-eureka-client-2.2.0.RC2.jar
+2019-11-18 16:24:09,374 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.0.RC2/spring-cloud-starter-netflix-eureka-client-2.2.0.RC2.jar
+2019-11-18 16:24:09,669 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter/2.2.0.RC2/spring-cloud-starter-2.2.0.RC2.jar
+2019-11-18 16:24:09,966 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter/2.2.0.RC2/spring-cloud-starter-2.2.0.RC2.jar
+2019-11-18 16:24:10,267 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-context/2.2.0.RC2/spring-cloud-context-2.2.0.RC2.jar
+2019-11-18 16:24:11,118 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-context/2.2.0.RC2/spring-cloud-context-2.2.0.RC2.jar
+2019-11-18 16:24:11,445 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/security/spring-security-crypto/5.2.1.RELEASE/spring-security-crypto-5.2.1.RELEASE.jar
+2019-11-18 16:24:12,347 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/security/spring-security-crypto/5.2.1.RELEASE/spring-security-crypto-5.2.1.RELEASE.jar
+2019-11-18 16:24:12,646 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons/2.2.0.RC2/spring-cloud-commons-2.2.0.RC2.jar
+2019-11-18 16:24:13,771 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons/2.2.0.RC2/spring-cloud-commons-2.2.0.RC2.jar
+2019-11-18 16:24:14,069 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.0.RC2/spring-cloud-netflix-hystrix-2.2.0.RC2.jar
+2019-11-18 16:24:14,436 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.0.RC2/spring-cloud-netflix-hystrix-2.2.0.RC2.jar
+2019-11-18 16:24:14,737 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE.jar
+2019-11-18 16:24:15,037 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE.jar
+2019-11-18 16:24:15,383 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.0.RC2/spring-cloud-netflix-eureka-client-2.2.0.RC2.jar
+2019-11-18 16:24:16,130 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.0.RC2/spring-cloud-netflix-eureka-client-2.2.0.RC2.jar
+2019-11-18 16:24:16,424 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar
+2019-11-18 16:24:16,776 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.0.RC2/spring-cloud-starter-netflix-archaius-2.2.0.RC2.jar
+2019-11-18 16:24:17,079 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.0.RC2/spring-cloud-starter-netflix-archaius-2.2.0.RC2.jar
+2019-11-18 16:24:17,399 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.0.RC2/spring-cloud-netflix-ribbon-2.2.0.RC2.jar
+2019-11-18 16:24:18,423 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.0.RC2/spring-cloud-netflix-ribbon-2.2.0.RC2.jar
+2019-11-18 16:24:18,738 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.0.RC2/spring-cloud-netflix-archaius-2.2.0.RC2.jar
+2019-11-18 16:24:19,113 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.0.RC2/spring-cloud-netflix-archaius-2.2.0.RC2.jar
+2019-11-18 16:24:19,412 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.0.RC2/spring-cloud-starter-netflix-ribbon-2.2.0.RC2.jar
+2019-11-18 16:24:19,706 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.0.RC2/spring-cloud-starter-netflix-ribbon-2.2.0.RC2.jar
+2019-11-18 16:24:20,020 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.0.RC2/spring-cloud-starter-loadbalancer-2.2.0.RC2.jar
+2019-11-18 16:24:20,322 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.0.RC2/spring-cloud-starter-loadbalancer-2.2.0.RC2.jar
+2019-11-18 16:24:20,642 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-loadbalancer/2.2.0.RC2/spring-cloud-loadbalancer-2.2.0.RC2.jar
+2019-11-18 16:24:21,312 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-loadbalancer/2.2.0.RC2/spring-cloud-loadbalancer-2.2.0.RC2.jar
+2019-11-18 16:24:21,616 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.2.1.RELEASE/spring-boot-starter-cache-2.2.1.RELEASE.jar
+2019-11-18 16:24:21,916 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.2.1.RELEASE/spring-boot-starter-cache-2.2.1.RELEASE.jar
+2019-11-18 16:24:22,214 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/spring-context-support/5.2.1.RELEASE/spring-context-support-5.2.1.RELEASE.jar
+2019-11-18 16:24:23,061 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.2.1.RELEASE/spring-context-support-5.2.1.RELEASE.jar
+2019-11-18 16:24:26,781 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.jar
+2019-11-18 16:24:27,531 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.jar
+2019-11-18 16:24:27,656 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar
+2019-11-18 16:24:27,938 [Worker-902] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar
+2019-11-18 16:24:29,009 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Zuul_Service:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\pom.xml.
+2019-11-18 16:24:30,284 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Eureka:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\pom.xml.
+2019-11-18 16:24:30,761 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:StudentClient:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\pom.xml.
+2019-11-18 16:24:34,674 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /token/src/main/java
+2019-11-18 16:24:34,674 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /token/src/main/resources
+2019-11-18 16:24:34,691 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /token/src/main/resources
+2019-11-18 16:24:34,697 [Worker-902] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /token/src/test/java
+2019-11-18 16:24:35,393 [Worker-902] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 98 sec
+2019-11-18 16:24:37,723 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:37,725 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:37,726 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:37,728 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:37,728 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Downloads\EurekaServer (003)\EurekaServer\src\test\resources
+2019-11-18 16:24:38,740 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:38,740 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:38,740 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:38,741 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:38,741 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\StudentClient\src\test\resources
+2019-11-18 16:24:40,444 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:40,445 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:40,445 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:40,446 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:40,446 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\Zuul_Service\src\test\resources
+2019-11-18 16:24:42,485 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:42,485 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:24:42,496 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:24:42,498 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:24:42,498 [Worker-898] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:25:24,659 [Worker-891] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\pom.xml.
+2019-11-18 16:25:27,379 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:25:27,380 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:25:27,380 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:25:27,381 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:25:27,381 [Worker-891] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:25:32,217 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:25:32,218 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:25:32,221 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:25:32,222 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:25:32,222 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:26:55,555 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:26:55,556 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:26:55,557 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:26:55,558 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:26:55,559 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:27:26,750 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:27:26,751 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-18 16:27:26,754 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:27:26,756 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:27:26,756 [Worker-899] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:28:44,373 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:28:44,374 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:28:44,379 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:28:44,380 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:28:44,380 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:29:19,091 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\pom.xml.
+2019-11-18 16:29:20,943 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:29:20,943 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:29:20,944 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:29:20,945 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:29:20,945 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:29:23,238 [Worker-902] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:token:0.0.1-SNAPSHOT @ C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\pom.xml.
+2019-11-18 16:29:25,323 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:29:25,325 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:29:25,329 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:29:25,330 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:29:25,330 [Worker-902] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:42:05,020 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:42:05,021 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:42:05,025 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:42:05,026 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:42:05,027 [Worker-900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:43:29,030 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:29,032 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:43:29,036 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:43:29,038 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:29,038 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:43:35,653 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:35,655 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:43:35,659 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:43:35,661 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:35,661 [Worker-894] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:43:44,317 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:44,319 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:43:44,323 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:43:44,324 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:44,324 [Worker-896] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
+2019-11-18 16:43:55,589 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:55,590 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-18 16:43:55,594 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-18 16:43:55,596 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-18 16:43:55,596 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\onkar_kulkarni\Desktop\Build_23_Oct_19\token\src\test\resources
