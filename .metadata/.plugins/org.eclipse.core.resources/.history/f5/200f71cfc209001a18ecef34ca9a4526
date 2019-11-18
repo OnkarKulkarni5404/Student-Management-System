@@ -1,0 +1,41 @@
+package com.StudentClient;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.StudentClient.beans.Branch;
+import com.StudentClient.beans.Gender;
+import com.StudentClient.dao.StudentDaoImpl;
+import com.StudentClient.service.StudentService;
+
+@RunWith(MockitoJUnitRunner.class)
+@SpringBootTest
+public class StudentClientApplicationTests {
+	
+	@Autowired
+	StudentService service;
+	
+	@InjectMocks
+	StudentDaoImpl dao;
+	
+	public Student(String studentId, Integer rollNo, String name,
+			Branch branch, Gender gender, String phone, String email,
+			String city)
+	Student student=new Student("5dcbbc8581f1e50d8430aff4",4,"Spider-mAn",Branch.CS,Gender.Male);
+	
+	@Test
+	public void testUpdateone()
+	{
+		when(service.updateStudent())
+	}
+	
+	
+	
+	
+	
+	
+}

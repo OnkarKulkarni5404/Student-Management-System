@@ -1,0 +1,44 @@
+package com.StudentClient;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.StudentClient.beans.Branch;
+import com.StudentClient.beans.Gender;
+import com.StudentClient.beans.Student;
+import com.StudentClient.dao.StudentDaoImpl;
+import com.StudentClient.service.StudentService;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class StudentClientApplicationTests {
+	
+	@Autowired
+	StudentService service;
+	
+	@InjectMocks
+	StudentDaoImpl dao;
+
+	Student student=new Student("5dcbbc8581f1e50d8430aff4",4,"Spider-mAn",Branch.CS,Gender.Male,"1234567894","sman@gmail.com","jalgaon");
+	
+	@Test
+	public void testUpdateone()
+	{
+		when(service.updateStudent(student)).thenReturn(new String("Updated"));
+		assertEquals("Updated",dao.updateStudent(student));
+		
+	}
+
+	
+	
+	
+	
+	
+	
+}

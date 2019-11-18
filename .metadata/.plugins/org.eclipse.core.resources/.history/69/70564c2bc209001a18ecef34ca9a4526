@@ -1,0 +1,25 @@
+package com.StudentClient;
+
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.StudentClient.dao.StudentDaoImpl;
+import com.StudentClient.service.StudentService;
+
+@RunWith(MockitoJUnitRunner.class)
+@SpringBootTest
+public class StudentClientApplicationTests {
+	
+	@Autowired
+	private StudentService service;
+	
+	@InjectMocks
+	private StudentDaoImpl dao;
+	
+	
+	
+	
+}

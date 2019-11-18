@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentClientApplicationTests.testUpdateStudentSamePhoneno" project="StudentClient" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testUpdateStudentSamePhoneno" classname="com.StudentClient.StudentClientApplicationTests" time="0.029"/>
+</testrun>

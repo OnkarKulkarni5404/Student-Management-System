@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentClientApplicationTests" project="StudentClient" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.StudentClient.StudentClientApplicationTests" time="0.034">
+    <testcase name="testUpdateStudentSamePhoneno" classname="com.StudentClient.StudentClientApplicationTests" time="0.022"/>
+    <testcase name="testUpdateStudentReturnUpdated" classname="com.StudentClient.StudentClientApplicationTests" time="0.007"/>
+    <testcase name="testUpdateStudentSameBranchAndRollNo" classname="com.StudentClient.StudentClientApplicationTests" time="0.005"/>
+  </testsuite>
+</testrun>

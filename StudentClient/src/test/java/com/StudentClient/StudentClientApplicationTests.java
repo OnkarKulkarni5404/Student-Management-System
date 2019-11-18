@@ -1,76 +1,96 @@
 package com.StudentClient;
 
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.when;
 
-import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.web.client.RestTemplate;
 
 import com.StudentClient.beans.Branch;
 import com.StudentClient.beans.Gender;
 import com.StudentClient.beans.Student;
-import com.StudentClient.repo.StudentRepo;
+import com.StudentClient.dao.NoUniqueUserFound;
+import com.StudentClient.dao.StudentDaoImpl;
 import com.StudentClient.service.StudentService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class StudentClientApplicationTests {
 	
-	@Autowired
-	private StudentService service;
 	
-	@Autowired
-	private StudentRepo repo;
+	@InjectMocks
+	StudentService service=new StudentService();
+	
+	@Mock
+	StudentDaoImpl dao;
+	
+	@Before
+    public void init() {
+        MockitoAnnotations.initMocks(this);
+    }
+ 	
+	String result="Updated";
+	Student student=new Student("5dcbbc8581f1e50d8430aff4",4,"Spider-okulkarni",Branch.CS,Gender.Male,"1234567894","sman@gmail.com","jalgaon");
 	
 	@Test
-	public void contextLoads() {
+	public void testUpdateStudentReturnUpdated()
+	{
+		when(dao.updateStudent(student)).thenReturn(result);
+		assertEquals(dao.updateStudent(student),"Updated");
 	}
 	
 	
+	Student student2=new Student("5dcbbc8581f1e50d8430aff4",4,"Spider-okulkarni",Branch.ME,Gender.Male,"1234567894","sman@gmail.com","jalgaon");
+	@Test
+	public void testUpdateStudentSameBranchAndRollNo()
+	{
+		NoUniqueUserFound obj = new NoUniqueUserFound("No uniqueness in branch and rollno");
+		when(dao.updateStudent(student2)).thenThrow(new NoUniqueUserFound("No uniqueness in branch and rollno"));
+		
+		try{
+			assertEquals(dao.updateStudent(student2), "Updated");
+		}
+		catch(Exception e){
+			String expectedMsg="No uniqueness in branch and rollno";
+			assertEquals(e.getMessage(),expectedMsg);
+		}
+	}
+
 	
+	Student student3=new Student("5dcbbc8581f1e50d8430aff4",4,"Spider-okulkarni",Branch.CS,Gender.Male,"9876534200","sman@gmail.com","jalgaon");
+	@Test
+	public void testUpdateStudentSamePhoneno()
+	{
+		when(dao.updateStudent(student3)).thenReturn("Updated");
+		try{
+			assertEquals(dao.updateStudent(student3),"Updated");
+		}
+		catch(Exception e){
+			String expectedMsg="No uniqueness in branch and rollno";
+			assertEquals(e.getMessage(),expectedMsg);
+		}
+	}
+	
+	Student student4=null;
 	
 	@Test
-	public void updateStudentSuccess() throws URISyntaxException 
+	public void testNullStudent()
 	{
-		//put
-		
-		RestTemplate rest_template=new RestTemplate();
-		final String url="http://10.44.50.37:8084/student_ru/student/update";
-		                 
-		URI uri=new URI(url);
-		//String studentId, Integer rollNo, String name,
-		//Branch branch, Gender gender, String phone, String email,
-		//String city
-		Student stud=new Student("5dc93339a3f0f207f4f40782",33,"pppp",Branch.CS,Gender.Female,"989898989","opk@gmail.com","jalgaon");
-		HttpHeaders headers = new HttpHeaders();
-	    HttpEntity<Student> request = new HttpEntity<>(stud, headers);
-	    rest_template.put(uri, request);
-	  
-	    
-	    //check
-	    
-	    final String url1="http://10.44.50.37:8084/student_ru/student/update";
-		URI uri1=new URI(url1);
-		ResponseEntity<String> entity=rest_template.getForEntity(uri1, String.class);
-		List<String> studNames=new ArrayList<String>();
-
-		boolean flag=true;
-		if(!entity.getBody().contains("opkupdated5"))
-		{
-				flag=false;
+		when(dao.updateStudent(student4)).thenReturn("Updated");
+		try{
+			assertEquals(dao.updateStudent(student4),"Updated");
+		}
+		catch(Exception e){
+			String expectedMsg="NoUser";
+			assertEquals(e.getMessage(),expectedMsg);
 		}
 		
-		Assert.assertEquals(true, flag);	
 	}
 	
 	
