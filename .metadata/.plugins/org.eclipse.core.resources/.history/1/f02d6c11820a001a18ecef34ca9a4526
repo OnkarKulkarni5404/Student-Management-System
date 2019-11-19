@@ -1,0 +1,20 @@
+package com.token.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+
+	
+@GetMapping("/login/{uname}/{pword}")
+void startlogin(@PathVariable("uname") String uname,@PathVariable("pword") String pword)
+{
+	
+	
+}
+	
+	
+	
+}

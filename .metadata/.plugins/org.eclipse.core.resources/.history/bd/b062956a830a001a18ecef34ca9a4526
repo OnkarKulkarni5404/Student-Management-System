@@ -1,0 +1,37 @@
+package com.token.controller;
+
+import javax.ws.rs.GET;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/login")
+public class Controller {
+
+@GetMapping("/hello")
+String print()
+{
+	return "Hello world";
+	}
+	
+	
+	
+@GetMapping("/{uname}/{pword}")
+public String startlogin(@PathVariable("uname") String uname,@PathVariable("pword") String pword)
+{
+	if(uname.equals("admin")&&pword.equals("admin"))
+	{
+		return "Success";
+	}
+	else
+	{
+		return "Failure";
+	}
+}
+	
+	
+	
+}
